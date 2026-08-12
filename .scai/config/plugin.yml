@@ -1,4 +1,5 @@
 code_source: extract
+committed_setup_tasks: registerCode,convertCode,runAssessment,configureSnowflakeTarget,configureTesting
 cortex_safe_tools_acknowledged: 'true'
 dashboard_port: 7878
 entry_mode: fresh
@@ -8,4 +9,3 @@ snowflake_database: VEVODB
 test_seed_source: source_db_query
 testing_data_source: source_database
 wave: '1'
-committed_setup_tasks: registerCode,convertCode,runAssessment,configureSnowflakeTarget,configureTesting
