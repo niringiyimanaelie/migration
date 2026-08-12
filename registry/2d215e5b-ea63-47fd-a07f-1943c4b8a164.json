@@ -1,0 +1,66 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/schema/spectrum_data"
+    },
+    "converted": {
+      "checksum": "771af327309cce0fb3a6ec357fdaf034",
+      "path": "snowflake/vevodb/schema/spectrum_data.sql"
+    },
+    "source": {
+      "checksum": "c4577753bf66e750c04a73c4af4d24ab",
+      "path": "source/vevodb/schema/spectrum_data.sql"
+    }
+  },
+  "id": "2d215e5b-ea63-47fd-a07f-1943c4b8a164",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": []
+  },
+  "source": {
+    "canonicalName": "vevodb.spectrum_data",
+    "format": "sql",
+    "name": "spectrum_data",
+    "objectType": "schema",
+    "platform": "redshift",
+    "schema": "vevodb"
+  },
+  "target": {
+    "canonicalName": "vevodb.vevodb.spectrum_data",
+    "format": "snowflakeSQL",
+    "name": "vevodb.spectrum_data",
+    "objectType": "schema",
+    "schema": "vevodb"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

@@ -1,0 +1,73 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [
+        {
+          "category": "temp_staging",
+          "matchedPatterns": [
+            "\\bstaging\\b"
+          ]
+        }
+      ],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/schema/staging"
+    },
+    "converted": {
+      "checksum": "f106f8006b933449edde873102445eb0",
+      "path": "snowflake/vevodb/schema/staging.sql"
+    },
+    "source": {
+      "checksum": "c02ee5569fd5f426d0fae59d679b6671",
+      "path": "source/vevodb/schema/staging.sql"
+    }
+  },
+  "id": "e0a34c73-9dde-41a5-876d-16362f8b6732",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": []
+  },
+  "source": {
+    "canonicalName": "vevodb.staging",
+    "format": "sql",
+    "name": "staging",
+    "objectType": "schema",
+    "platform": "redshift",
+    "schema": "vevodb"
+  },
+  "target": {
+    "canonicalName": "vevodb.vevodb.staging",
+    "format": "snowflakeSQL",
+    "name": "vevodb.staging",
+    "objectType": "schema",
+    "schema": "vevodb"
+  },
+  "updatedAt": "2026-08-12T17:53:23Z"
+}

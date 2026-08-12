@@ -1,0 +1,66 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/schema/public"
+    },
+    "converted": {
+      "checksum": "5da35c3941a3357f9a9541e681b9484b",
+      "path": "snowflake/vevodb/schema/public.sql"
+    },
+    "source": {
+      "checksum": "1aca27cb54c1f6ae2332d4eed3c7ece7",
+      "path": "source/vevodb/schema/public.sql"
+    }
+  },
+  "id": "9a303e7c-1e97-43d8-a302-9a95d329f371",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": []
+  },
+  "source": {
+    "canonicalName": "vevodb.public",
+    "format": "sql",
+    "name": "public",
+    "objectType": "schema",
+    "platform": "redshift",
+    "schema": "vevodb"
+  },
+  "target": {
+    "canonicalName": "vevodb.vevodb.public",
+    "format": "snowflakeSQL",
+    "name": "vevodb.public",
+    "objectType": "schema",
+    "schema": "vevodb"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

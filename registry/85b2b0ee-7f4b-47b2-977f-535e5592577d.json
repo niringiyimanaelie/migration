@@ -1,0 +1,145 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/table/content_moderation"
+    },
+    "converted": {
+      "checksum": "6d8c61be97506b02b2469dffb81e750b",
+      "path": "snowflake/vevodb/operations/table/content_moderation.sql"
+    },
+    "source": {
+      "checksum": "3681212fc06d8c510535c3db30100333",
+      "path": "source/vevodb/operations/table/content_moderation.sql"
+    }
+  },
+  "id": "85b2b0ee-7f4b-47b2-977f-535e5592577d",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "moderation_id",
+        "nullable": true,
+        "targetName": "moderation_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "video_id",
+        "nullable": true,
+        "targetName": "video_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "flag_date",
+        "nullable": true,
+        "targetName": "flag_date",
+        "targetType": "",
+        "type": "TIMESTAMP"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "flag_reason",
+        "nullable": true,
+        "targetName": "flag_reason",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "severity",
+        "nullable": true,
+        "targetName": "severity",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "reviewer",
+        "nullable": true,
+        "targetName": "reviewer",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "resolution",
+        "nullable": true,
+        "targetName": "resolution",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "resolved_at",
+        "nullable": true,
+        "targetName": "resolved_at",
+        "targetType": "",
+        "type": "TIMESTAMP"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.content_moderation",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "content_moderation",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.content_moderation",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "content_moderation",
+    "objectType": "table",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

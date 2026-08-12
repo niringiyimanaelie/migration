@@ -1,0 +1,32 @@
+{
+  "object": "vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING)",
+  "object_type": "PROCEDURE",
+  "branches": [],
+  "predicates": [
+    {
+      "table": "vevodb.operations.ad_campaigns",
+      "column": "advertiser",
+      "operator": "=",
+      "values": [
+        "p_advertiser"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "left_table": "vevodb.operations.ad_campaigns",
+      "left_columns": [
+        "campaign_id"
+      ],
+      "right_table": "vevodb.operations.ad_placements",
+      "right_columns": [
+        "campaign_id"
+      ],
+      "join_type": "inner",
+      "is_anti": false
+    }
+  ],
+  "assignments": [],
+  "semi_anti": [],
+  "schema_version": 1
+}

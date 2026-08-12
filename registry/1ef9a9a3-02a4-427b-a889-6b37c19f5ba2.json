@@ -1,0 +1,145 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/analytics/table/user_engagement"
+    },
+    "converted": {
+      "checksum": "37cc888ff6c2c8c7129f5b3b70bebdb3",
+      "path": "snowflake/vevodb/analytics/table/user_engagement.sql"
+    },
+    "source": {
+      "checksum": "03e59adfd931ce346f8b3f89a2461224",
+      "path": "source/vevodb/analytics/table/user_engagement.sql"
+    }
+  },
+  "id": "1ef9a9a3-02a4-427b-a889-6b37c19f5ba2",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "engagement_id",
+        "nullable": true,
+        "targetName": "engagement_id",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "video_id",
+        "nullable": true,
+        "targetName": "video_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "engagement_date",
+        "nullable": true,
+        "targetName": "engagement_date",
+        "targetType": "DATE",
+        "type": "DATE"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "likes",
+        "nullable": true,
+        "targetName": "likes",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "dislikes",
+        "nullable": true,
+        "targetName": "dislikes",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "comments",
+        "nullable": true,
+        "targetName": "comments",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "shares",
+        "nullable": true,
+        "targetName": "shares",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "saves",
+        "nullable": true,
+        "targetName": "saves",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.analytics.user_engagement",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "user_engagement",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "analytics"
+  },
+  "target": {
+    "canonicalName": "vevodb.analytics.user_engagement",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "user_engagement",
+    "objectType": "table",
+    "schema": "analytics"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

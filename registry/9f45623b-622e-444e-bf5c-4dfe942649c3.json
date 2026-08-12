@@ -1,0 +1,149 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "156b6732-be9d-45c5-8c28-e90ebb0b5836",
+      "3ab4d71c-c865-4764-af58-d31edebebca4",
+      "c8774a7a-1f8e-41b6-a41a-c6b892912247"
+    ]
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/table/ad_placements"
+    },
+    "converted": {
+      "checksum": "827669e0b3cdf1e70de8c38686abb430",
+      "path": "snowflake/vevodb/operations/table/ad_placements.sql"
+    },
+    "source": {
+      "checksum": "daedef15ee7746314f6d32788dfa701f",
+      "path": "source/vevodb/operations/table/ad_placements.sql"
+    }
+  },
+  "id": "9f45623b-622e-444e-bf5c-4dfe942649c3",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "placement_id",
+        "nullable": true,
+        "targetName": "placement_id",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "campaign_id",
+        "nullable": true,
+        "targetName": "campaign_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "video_id",
+        "nullable": true,
+        "targetName": "video_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "placement_date",
+        "nullable": true,
+        "targetName": "placement_date",
+        "targetType": "DATE",
+        "type": "DATE"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "impressions",
+        "nullable": true,
+        "targetName": "impressions",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "clicks",
+        "nullable": true,
+        "targetName": "clicks",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "cost_usd",
+        "nullable": true,
+        "targetName": "cost_usd",
+        "targetType": "NUMERIC",
+        "type": "NUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "ctr",
+        "nullable": true,
+        "targetName": "ctr",
+        "targetType": "NUMERIC",
+        "type": "NUMERIC"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.ad_placements",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "ad_placements",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.ad_placements",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "ad_placements",
+    "objectType": "table",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

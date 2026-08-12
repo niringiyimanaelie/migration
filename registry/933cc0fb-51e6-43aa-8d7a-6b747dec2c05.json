@@ -1,0 +1,148 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "c54b2e42-5ccc-4afa-a4e5-28573c22f667",
+      "dce86bde-cf72-4c6c-8d59-65293247c7d6"
+    ]
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/music_catalog/table/artists"
+    },
+    "converted": {
+      "checksum": "635624f84578b6af55d846884fe8d0fe",
+      "path": "snowflake/vevodb/music_catalog/table/artists.sql"
+    },
+    "source": {
+      "checksum": "8d75989479ef64b2f1bc9cd0759d5d22",
+      "path": "source/vevodb/music_catalog/table/artists.sql"
+    }
+  },
+  "id": "933cc0fb-51e6-43aa-8d7a-6b747dec2c05",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "artist_id",
+        "nullable": true,
+        "targetName": "artist_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "artist_name",
+        "nullable": true,
+        "targetName": "artist_name",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "genre",
+        "nullable": true,
+        "targetName": "genre",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "country",
+        "nullable": true,
+        "targetName": "country",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "\"label\"",
+        "nullable": true,
+        "targetName": "label",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "debut_year",
+        "nullable": true,
+        "targetName": "debut_year",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "monthly_listeners",
+        "nullable": true,
+        "targetName": "monthly_listeners",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "created_at",
+        "nullable": true,
+        "targetName": "created_at",
+        "targetType": "",
+        "type": "TIMESTAMP"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.music_catalog.artists",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "artists",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "music_catalog"
+  },
+  "target": {
+    "canonicalName": "vevodb.music_catalog.artists",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "artists",
+    "objectType": "table",
+    "schema": "music_catalog"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

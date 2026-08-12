@@ -1,0 +1,66 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/schema/analytics"
+    },
+    "converted": {
+      "checksum": "ba6127818583b4bc532450c9503c23e8",
+      "path": "snowflake/vevodb/schema/analytics.sql"
+    },
+    "source": {
+      "checksum": "c1ef29627f80d66853bb23346ae08547",
+      "path": "source/vevodb/schema/analytics.sql"
+    }
+  },
+  "id": "f132badc-4ced-498e-8437-9d83707bc591",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": []
+  },
+  "source": {
+    "canonicalName": "vevodb.analytics",
+    "format": "sql",
+    "name": "analytics",
+    "objectType": "schema",
+    "platform": "redshift",
+    "schema": "vevodb"
+  },
+  "target": {
+    "canonicalName": "vevodb.vevodb.analytics",
+    "format": "snowflakeSQL",
+    "name": "vevodb.analytics",
+    "objectType": "schema",
+    "schema": "vevodb"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

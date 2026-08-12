@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS vevodb.spectrum_data AUTHORIZATION IAM:aws1;

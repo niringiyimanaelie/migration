@@ -1,0 +1,73 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [
+        {
+          "category": "testing",
+          "matchedPatterns": [
+            "schema: dev"
+          ]
+        }
+      ],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/dev/schema/public"
+    },
+    "converted": {
+      "checksum": "67b3c48dcf3d72460963b3c8e4695f1b",
+      "path": "snowflake/dev/schema/public.sql"
+    },
+    "source": {
+      "checksum": "ecb0e321bda5cc2593097065ac3f40e2",
+      "path": "source/dev/schema/public.sql"
+    }
+  },
+  "id": "12dd7c67-5dc2-471b-beaa-eddd90b7b621",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": []
+  },
+  "source": {
+    "canonicalName": "dev.public",
+    "format": "sql",
+    "name": "public",
+    "objectType": "schema",
+    "platform": "redshift",
+    "schema": "dev"
+  },
+  "target": {
+    "canonicalName": "dev.dev.public",
+    "format": "snowflakeSQL",
+    "name": "dev.public",
+    "objectType": "schema",
+    "schema": "dev"
+  },
+  "updatedAt": "2026-08-12T17:53:23Z"
+}

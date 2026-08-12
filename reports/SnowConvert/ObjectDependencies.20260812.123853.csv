@@ -1,0 +1,51 @@
+caller_id,referenced_id,is_missing
+vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING),PUBLIC.RAISE_MESSAGE_UDP (),False
+vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING),PUBLIC. STRING_FORMAT_UDF(),False
+"vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)",vevodb.operations,False
+"vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""operations"".""mv_tbl__mv_advertiser_spend__0""",True
+"vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""mv_tbl__mv_advertiser_spend__0__insert_tmp""",True
+"vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""mv_tbl__mv_advertiser_spend__0_tmp""",True
+"vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""operations"".""mv_tbl__mv_advertiser_spend__0_recomputed""",True
+"vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)",vevodb.analytics,False
+"vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""mv_tbl__mv_daily_revenue_summary__0__insert_tmp""",True
+"vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""analytics"".""mv_tbl__mv_daily_revenue_summary__0""",True
+"vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""mv_tbl__mv_daily_revenue_summary__0_tmp""",True
+"vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)","""analytics"".""mv_tbl__mv_daily_revenue_summary__0_recomputed""",True
+vevodb.music_catalog,vevodb,False
+vevodb.operations.ad_placements,vevodb.operations,False
+vevodb.music_catalog.artists,vevodb.music_catalog,False
+vevodb.music_catalog.channels,vevodb.music_catalog,False
+vevodb.operations.mv_advertiser_spend,vevodb.operations,False
+vevodb.operations.mv_advertiser_spend,vevodb.operations.ad_campaigns,False
+vevodb.operations.mv_advertiser_spend,vevodb.operations.ad_placements,False
+vevodb.music_catalog.v_video_catalog,vevodb.music_catalog,False
+vevodb.music_catalog.v_video_catalog,vevodb.music_catalog.videos,False
+vevodb.music_catalog.v_video_catalog,vevodb.music_catalog.artists,False
+vevodb.music_catalog.v_video_catalog,vevodb.music_catalog.channels,False
+vevodb.analytics.mv_daily_revenue_summary,vevodb.analytics,False
+vevodb.analytics.mv_daily_revenue_summary,vevodb.analytics.daily_streams,False
+dev.public,dev,True
+vevodb.operations.sp_close_campaign(INTEGER),vevodb.operations,False
+vevodb.operations.sp_close_campaign(INTEGER),vevodb.operations.ad_campaigns,False
+vevodb.analytics.v_top_artists_by_streams,vevodb.analytics,False
+vevodb.analytics.v_top_artists_by_streams,vevodb.music_catalog.videos,False
+vevodb.analytics.v_top_artists_by_streams,vevodb.music_catalog.artists,False
+vevodb.analytics.v_top_artists_by_streams,vevodb.analytics.daily_streams,False
+vevodb.analytics.user_engagement,vevodb.analytics,False
+vevodb.analytics.daily_streams,vevodb.analytics,False
+vevodb.analytics.sp_refresh_daily_summary(DATE),vevodb.analytics,False
+vevodb.public,vevodb,False
+vevodb.operations,vevodb,False
+vevodb.operations.ad_campaigns,vevodb.operations,False
+vevodb.spectrum_data,vevodb,False
+vevodb.operations.ad_campaigns_history,vevodb.operations,False
+vevodb.analytics,vevodb,False
+vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING),vevodb.operations,False
+vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING),vevodb.operations.ad_campaigns,False
+vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING),vevodb.operations.ad_placements,False
+vevodb.music_catalog.videos,vevodb.music_catalog,False
+vevodb.operations.v_campaign_performance,vevodb.operations,False
+vevodb.operations.v_campaign_performance,vevodb.operations.ad_campaigns,False
+vevodb.operations.v_campaign_performance,vevodb.operations.ad_placements,False
+vevodb.staging,vevodb,False
+vevodb.operations.content_moderation,vevodb.operations,False

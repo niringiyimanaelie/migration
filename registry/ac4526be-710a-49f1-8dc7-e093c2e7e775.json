@@ -1,0 +1,42 @@
+{
+  "codeStatus": {
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "converted": {
+      "checksum": "239ce43d6d521a4b15610222d6658e9d",
+      "path": "snowflake/UDF Helpers/RAISE_MESSAGE_UDP.sql"
+    }
+  },
+  "id": "ac4526be-710a-49f1-8dc7-e093c2e7e775",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "target": {
+    "canonicalName": "PUBLIC.RAISE_MESSAGE_UDP",
+    "name": "RAISE_MESSAGE_UDP",
+    "objectType": "function",
+    "schema": "PUBLIC"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

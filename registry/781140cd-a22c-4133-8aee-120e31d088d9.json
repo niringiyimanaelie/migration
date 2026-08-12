@@ -1,0 +1,66 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/schema/music_catalog"
+    },
+    "converted": {
+      "checksum": "a81d0c58a8c400641309f849bde859a8",
+      "path": "snowflake/vevodb/schema/music_catalog.sql"
+    },
+    "source": {
+      "checksum": "61f98bfb1f66e06d76ebe35e946d3b82",
+      "path": "source/vevodb/schema/music_catalog.sql"
+    }
+  },
+  "id": "781140cd-a22c-4133-8aee-120e31d088d9",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": []
+  },
+  "source": {
+    "canonicalName": "vevodb.music_catalog",
+    "format": "sql",
+    "name": "music_catalog",
+    "objectType": "schema",
+    "platform": "redshift",
+    "schema": "vevodb"
+  },
+  "target": {
+    "canonicalName": "vevodb.vevodb.music_catalog",
+    "format": "snowflakeSQL",
+    "name": "vevodb.music_catalog",
+    "objectType": "schema",
+    "schema": "vevodb"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

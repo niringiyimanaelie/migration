@@ -1,0 +1,128 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "9f45623b-622e-444e-bf5c-4dfe942649c3",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      },
+      {
+        "id": "fac36da8-8abc-4177-9774-5e5467a40902",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/materializedview/mv_advertiser_spend"
+    },
+    "converted": {
+      "checksum": "b9b9090f761c33b92c5314db34f24786",
+      "path": "snowflake/vevodb/operations/materializedview/mv_advertiser_spend.sql"
+    },
+    "source": {
+      "checksum": "f48505cfe13f91c19b2b4c25a943c0ad",
+      "path": "source/vevodb/operations/materializedview/mv_advertiser_spend.sql"
+    }
+  },
+  "id": "156b6732-be9d-45c5-8c28-e90ebb0b5836",
+  "inScope": true,
+  "isMissing": false,
+  "issues": [
+    {
+      "code": "SSC-FDM-0031",
+      "count": 1
+    }
+  ],
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "advertiser",
+        "nullable": true,
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_impressions",
+        "nullable": true,
+        "type": "EXACTNUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_clicks",
+        "nullable": true,
+        "type": "EXACTNUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_spend",
+        "nullable": true,
+        "type": "NUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "overall_ctr",
+        "nullable": true
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.mv_advertiser_spend",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "mv_advertiser_spend",
+    "objectType": "materializedView",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.mv_advertiser_spend",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "mv_advertiser_spend",
+    "objectType": "materializedView",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

@@ -1,0 +1,166 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "c54b2e42-5ccc-4afa-a4e5-28573c22f667",
+      "dce86bde-cf72-4c6c-8d59-65293247c7d6"
+    ]
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/music_catalog/table/videos"
+    },
+    "converted": {
+      "checksum": "da4f52d1938b10c03cd5ac2d6d7d515e",
+      "path": "snowflake/vevodb/music_catalog/table/videos.sql"
+    },
+    "source": {
+      "checksum": "196716018e4fb28d26fd9b29c97c39ea",
+      "path": "source/vevodb/music_catalog/table/videos.sql"
+    }
+  },
+  "id": "da7cbbf4-e761-4715-bf92-b4871a24aea3",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "video_id",
+        "nullable": true,
+        "targetName": "video_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "artist_id",
+        "nullable": true,
+        "targetName": "artist_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "title",
+        "nullable": true,
+        "targetName": "title",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "release_date",
+        "nullable": true,
+        "targetName": "release_date",
+        "targetType": "DATE",
+        "type": "DATE"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "duration_seconds",
+        "nullable": true,
+        "targetName": "duration_seconds",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "genre",
+        "nullable": true,
+        "targetName": "genre",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "is_explicit",
+        "nullable": true,
+        "targetName": "is_explicit",
+        "targetType": "BOOLEAN",
+        "type": "BOOLEAN"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "video_quality",
+        "nullable": true,
+        "targetName": "video_quality",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_views",
+        "nullable": true,
+        "targetName": "total_views",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "created_at",
+        "nullable": true,
+        "targetName": "created_at",
+        "targetType": "",
+        "type": "TIMESTAMP"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.music_catalog.videos",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "videos",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "music_catalog"
+  },
+  "target": {
+    "canonicalName": "vevodb.music_catalog.videos",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "videos",
+    "objectType": "table",
+    "schema": "music_catalog"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

@@ -1,0 +1,206 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "df0f7893-5f95-426f-bbca-78f0d40cfa4d",
+        "isMissing": true,
+        "relationTypes": [
+          "DROP",
+          "SELECT - FROM"
+        ]
+      },
+      {
+        "id": "09c307f8-bae0-491f-a514-cbbdd04c93e7",
+        "isMissing": true,
+        "relationTypes": [
+          "DROP"
+        ]
+      },
+      {
+        "id": "93e136d2-6c61-4a6c-9467-eb5fdbf53444",
+        "isMissing": true,
+        "relationTypes": [
+          "INSERT",
+          "DELETE",
+          "SELECT - FROM",
+          "DROP"
+        ]
+      },
+      {
+        "id": "f678e57a-d3cb-4f21-8f2b-de9cea910a29",
+        "isMissing": true,
+        "relationTypes": [
+          "ALTER",
+          "SELECT - FROM"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": true,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade"
+    },
+    "converted": {
+      "checksum": "b5fac6896018edc922c6a18f81322299",
+      "path": "snowflake/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql"
+    },
+    "source": {
+      "checksum": "22b488632a481a0d2f1da397fed47a22",
+      "path": "source/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql"
+    }
+  },
+  "id": "23c7fd51-5295-435b-83c1-a5a7118caf01",
+  "inScope": true,
+  "isMissing": false,
+  "issues": [
+    {
+      "code": "SSC-EWI-0073",
+      "count": 67,
+      "severity": "medium"
+    },
+    {
+      "code": "SSC-EWI-0027",
+      "count": 3,
+      "severity": "medium"
+    },
+    {
+      "code": "SSC-FDM-0019",
+      "count": 1
+    },
+    {
+      "code": "SSC-FDM-0007",
+      "count": 1
+    }
+  ],
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [],
+    "parameters": {
+      "arguments": [
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "start_xid",
+          "required": true,
+          "targetName": "start_xid",
+          "targetType": "BIGINT",
+          "type": "BIGINT"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "end_xid",
+          "required": true,
+          "targetName": "end_xid",
+          "targetType": "BIGINT",
+          "type": "BIGINT"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "recompute_mv",
+          "required": true,
+          "targetName": "recompute_mv",
+          "targetType": "BOOLEAN",
+          "type": "BOOLEAN"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "finished_xid_list",
+          "required": true,
+          "targetName": "finished_xid_list",
+          "targetType": "VARCHAR",
+          "type": "CHARACTER VARYING"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "cascade_xid",
+          "required": true,
+          "targetName": "cascade_xid",
+          "targetType": "BIGINT",
+          "type": "BIGINT"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "last_cascade_xids",
+          "required": true,
+          "targetName": "last_cascade_xids",
+          "targetType": "VARCHAR",
+          "type": "CHARACTER VARYING"
+        }
+      ],
+      "returns": [
+        {
+          "name": "\"stream_date\"",
+          "targetName": "stream_date"
+        },
+        {
+          "name": "\"country\"",
+          "targetName": "country"
+        },
+        {
+          "name": "\"total_streams\"",
+          "targetName": "total_streams"
+        },
+        {
+          "name": "\"total_unique_viewers\"",
+          "targetName": "total_unique_viewers"
+        },
+        {
+          "name": "\"total_revenue\"",
+          "targetName": "total_revenue"
+        },
+        {
+          "name": "\"avg_watch_time\"",
+          "targetName": "avg_watch_time"
+        }
+      ]
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "mv_sp__mv_daily_revenue_summary__4_2_cascade",
+    "objectType": "procedure",
+    "platform": "redshift",
+    "schema": "analytics"
+  },
+  "target": {
+    "canonicalName": "vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,VARCHAR,BIGINT,VARCHAR)",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "mv_sp__mv_daily_revenue_summary__4_2_cascade",
+    "objectType": "procedure",
+    "schema": "analytics"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

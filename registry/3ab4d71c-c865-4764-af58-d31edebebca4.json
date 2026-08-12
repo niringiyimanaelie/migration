@@ -1,0 +1,165 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "9f45623b-622e-444e-bf5c-4dfe942649c3",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      },
+      {
+        "id": "fac36da8-8abc-4177-9774-5e5467a40902",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/view/v_campaign_performance"
+    },
+    "converted": {
+      "checksum": "b9f3505b446fb34b4734ea4244250ffa",
+      "path": "snowflake/vevodb/operations/view/v_campaign_performance.sql"
+    },
+    "source": {
+      "checksum": "46dc45255a962b2f56d01e63a4113178",
+      "path": "source/vevodb/operations/view/v_campaign_performance.sql"
+    }
+  },
+  "id": "3ab4d71c-c865-4764-af58-d31edebebca4",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "campaign_name",
+        "nullable": true,
+        "targetName": "campaign_name",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "advertiser",
+        "nullable": true,
+        "targetName": "advertiser",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "status",
+        "nullable": true,
+        "targetName": "status",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "budget_usd",
+        "nullable": true,
+        "targetName": "budget_usd",
+        "targetType": "NUMERIC",
+        "type": "NUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_impressions",
+        "nullable": true,
+        "targetName": "total_impressions",
+        "targetType": "EXACTNUMERIC",
+        "type": "EXACTNUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_clicks",
+        "nullable": true,
+        "targetName": "total_clicks",
+        "targetType": "EXACTNUMERIC",
+        "type": "EXACTNUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_spent",
+        "nullable": true,
+        "targetName": "total_spent",
+        "targetType": "NUMERIC",
+        "type": "NUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "budget_utilization_pct",
+        "nullable": true,
+        "targetName": "budget_utilization_pct"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "avg_ctr_pct",
+        "nullable": true,
+        "targetName": "avg_ctr_pct"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.v_campaign_performance",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "v_campaign_performance",
+    "objectType": "view",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.v_campaign_performance",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "v_campaign_performance",
+    "objectType": "view",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

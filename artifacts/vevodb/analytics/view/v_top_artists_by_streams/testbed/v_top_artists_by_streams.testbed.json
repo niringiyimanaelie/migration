@@ -1,0 +1,35 @@
+{
+  "object": "vevodb.analytics.v_top_artists_by_streams",
+  "object_type": "VIEW",
+  "branches": [],
+  "predicates": [],
+  "edges": [
+    {
+      "left_table": "vevodb.analytics.daily_streams",
+      "left_columns": [
+        "video_id"
+      ],
+      "right_table": "vevodb.music_catalog.videos",
+      "right_columns": [
+        "video_id"
+      ],
+      "join_type": "inner",
+      "is_anti": false
+    },
+    {
+      "left_table": "vevodb.music_catalog.artists",
+      "left_columns": [
+        "artist_id"
+      ],
+      "right_table": "vevodb.music_catalog.videos",
+      "right_columns": [
+        "artist_id"
+      ],
+      "join_type": "inner",
+      "is_anti": false
+    }
+  ],
+  "assignments": [],
+  "semi_anti": [],
+  "schema_version": 1
+}

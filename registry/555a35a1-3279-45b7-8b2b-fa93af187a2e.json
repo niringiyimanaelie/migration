@@ -1,0 +1,90 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "fac36da8-8abc-4177-9774-5e5467a40902",
+        "isMissing": false,
+        "relationTypes": [
+          "UPDATE"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/procedure/sp_close_campaign"
+    },
+    "converted": {
+      "checksum": "02c09f35b759f90dc79f9ca16b277b27",
+      "path": "snowflake/vevodb/operations/procedure/sp_close_campaign.sql"
+    },
+    "source": {
+      "checksum": "133958b1d231a69150b5644bf791f5dc",
+      "path": "source/vevodb/operations/procedure/sp_close_campaign.sql"
+    }
+  },
+  "id": "555a35a1-3279-45b7-8b2b-fa93af187a2e",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [],
+    "parameters": {
+      "arguments": [
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "p_campaign_id",
+          "required": true,
+          "targetName": "p_campaign_id",
+          "targetType": "INTEGER",
+          "type": "INTEGER"
+        }
+      ],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.sp_close_campaign(INTEGER)",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "sp_close_campaign",
+    "objectType": "procedure",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.sp_close_campaign(INTEGER)",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "sp_close_campaign",
+    "objectType": "procedure",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

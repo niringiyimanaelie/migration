@@ -1,0 +1,42 @@
+{
+  "codeStatus": {
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "converted": {
+      "checksum": "c21558e6f9aaae03d29f5dd5dc58a143",
+      "path": "snowflake/UDF Helpers/STRING_FORMAT_UDF.sql"
+    }
+  },
+  "id": "1a1ddce3-f1bf-4d88-99ae-20b810ee0685",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "target": {
+    "canonicalName": "PUBLIC.STRING_FORMAT_UDF",
+    "name": "STRING_FORMAT_UDF",
+    "objectType": "function",
+    "schema": "PUBLIC"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

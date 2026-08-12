@@ -1,0 +1,243 @@
+[8/12/2026 12:38:53 PM] Info: SourceLanguage set to RedShift based on the appsettings configuration.
+[8/12/2026 12:38:53 PM] Info: Conversion Engine process being executed with the following parameters:
+[8/12/2026 12:38:53 PM] Info: 	AccessLevel : General Availability
+[8/12/2026 12:38:53 PM] Info: 	AppType : cli
+[8/12/2026 12:38:53 PM] Info: 	AppVersion : 2.40.0-Pr.125
+[8/12/2026 12:38:53 PM] Info: 	Arrange : False
+[8/12/2026 12:38:53 PM] Info: 	ArtifactsPath : /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts
+[8/12/2026 12:38:53 PM] Info: 	AssessmentDirectory : /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/AssessmentModel
+[8/12/2026 12:38:53 PM] Info: 	CommonEF : /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:53 PM] Info: 	CustomSchema : 
+[8/12/2026 12:38:53 PM] Info: 	Encoding : 65001
+[8/12/2026 12:38:53 PM] Info: 	EtlTargetBasePath : /Users/elieniringiyimana/Documents/test_migration_toool/migration/snowflake
+[8/12/2026 12:38:53 PM] Info: 	IsInputDirectory : True
+[8/12/2026 12:38:53 PM] Info: 	ProjectContextPath : /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/conversion-context
+[8/12/2026 12:38:53 PM] Info: 	ProjectPath : /Users/elieniringiyimana/Documents/test_migration_toool/migration
+[8/12/2026 12:38:53 PM] Info: 	SnowflakeAccountId : SFCOGSOPS-SNOWHOUSE_AWS_US_WEST_2
+[8/12/2026 12:38:53 PM] Info: 	SnowflakeUser : ENIRINGIYIMANA
+[8/12/2026 12:38:53 PM] Info: 	SourceLanguage : Redshift
+[8/12/2026 12:38:53 PM] Info: 	WorkingDirectory : /Users/elieniringiyimana/Documents/test_migration_toool/migration/snowflake
+[8/12/2026 12:38:56 PM] Info: Starting to analyze the input path '/Users/elieniringiyimana/Documents/test_migration_toool/migration/source'...
+[8/12/2026 12:38:56 PM] Info: [Store] inputFileCount=27
+[8/12/2026 12:38:56 PM] Info: EFProcess 639221531363736140 started
+[8/12/2026 12:38:56 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/12/2026 12:38:56 PM] Debug: TaskParam ConversionBeginTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:56 PM] Debug: TaskParam workingSet = Value is not created.
+[8/12/2026 12:38:56 PM] Debug: TaskParam ConversionBeginTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:56 PM] Debug: TaskParam ConversionBeginTask.Enabled = True
+[8/12/2026 12:38:56 PM] Debug: TaskParam Repository = Value is not created.
+[8/12/2026 12:38:56 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:56 PM] Info: Found 27 Sql files with a total size of 44.64KB
+[8/12/2026 12:38:56 PM] Info: Starting the parsing process of 27 files with 44.64KB of code, this might take a while...
+[8/12/2026 12:38:56 PM] Info: Step 1/8 - Loading Code: STARTED
+[8/12/2026 12:38:56 PM] Warning: Multiple providers (Mobilize.Ansi.Script.Parser.AnsisLoaderProvider, Mobilize.Spark.Script.Parser.SparksLoaderProvider, Mobilize.Databricks.Script.Parser.DbxsLoaderProvider, Mobilize.Hv.Script.Parser.HvsLoaderProvider) for item .hql were found. Using first one.
+[8/12/2026 12:38:56 PM] Error: There is 1 parsing error in the file /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/vevodb/schema/music_catalog.sql
+[8/12/2026 12:38:56 PM] Error: music_catalog.sql(1, 66): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '1' COLUMN '66' OF THE SOURCE CODE STARTING AT ':'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/12/2026 12:38:56 PM] Error: There is 1 parsing error in the file /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/vevodb/schema/analytics.sql
+[8/12/2026 12:38:56 PM] Error: analytics.sql(1, 62): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '1' COLUMN '62' OF THE SOURCE CODE STARTING AT ':'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/12/2026 12:38:56 PM] Error: There is 1 parsing error in the file /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/vevodb/schema/spectrum_data.sql
+[8/12/2026 12:38:56 PM] Error: spectrum_data.sql(1, 66): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '1' COLUMN '66' OF THE SOURCE CODE STARTING AT ':'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/12/2026 12:38:56 PM] Error: There is 1 parsing error in the file /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/vevodb/schema/operations.sql
+[8/12/2026 12:38:56 PM] Error: operations.sql(1, 63): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '1' COLUMN '63' OF THE SOURCE CODE STARTING AT ':'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/12/2026 12:38:56 PM] Error: There is 1 parsing error in the file /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/vevodb/schema/staging.sql
+[8/12/2026 12:38:56 PM] Error: staging.sql(1, 60): ** SSC-EWI-0001 - UNRECOGNIZED TOKEN ON LINE '1' COLUMN '60' OF THE SOURCE CODE STARTING AT ':'. EXPECTED 'STATEMENT' GRAMMAR. ** 
+[8/12/2026 12:38:57 PM] Info: Step 1/8 - Loading Code: COMPLETED
+[8/12/2026 12:38:57 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/12/2026 12:38:57 PM] Debug: TaskParam SymbolTableFillingTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:57 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:57 PM] Debug: TaskParam SymbolTableFillingTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:57 PM] Debug: TaskParam SymbolTableFillingTask.Enabled = True
+[8/12/2026 12:38:57 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:57 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:57 PM] Info: Step 2/8 - Semantic Analysis of Tables: STARTED
+[8/12/2026 12:38:57 PM] Warning: Multiple providers (Mobilize.Ansi.Script.Parser.AnsisLoaderProvider, Mobilize.Spark.Script.Parser.SparksLoaderProvider, Mobilize.Databricks.Script.Parser.DbxsLoaderProvider, Mobilize.Hv.Script.Parser.HvsLoaderProvider) for item .hql were found. Using first one.
+[8/12/2026 12:38:57 PM] Info: Step 2/8 - Semantic Analysis of Tables: COMPLETED
+[8/12/2026 12:38:57 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/12/2026 12:38:57 PM] Debug: TaskParam SymbolTableFillingSecondTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:57 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:57 PM] Debug: TaskParam SymbolTableFillingSecondTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:57 PM] Debug: TaskParam SymbolTableFillingSecondTask.Enabled = True
+[8/12/2026 12:38:57 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:57 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:57 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STARTED
+[8/12/2026 12:38:57 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORING
+[8/12/2026 12:38:57 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORED
+[8/12/2026 12:38:57 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: COMPLETED
+[8/12/2026 12:38:57 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/12/2026 12:38:57 PM] Debug: TaskParam PreProcessTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:57 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:57 PM] Debug: TaskParam PreProcessTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:57 PM] Debug: TaskParam PreProcessTask.Enabled = True
+[8/12/2026 12:38:57 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:57 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:57 PM] Info: Step 4/8 - Pre-Processing: STARTED
+[8/12/2026 12:38:57 PM] Info: Step 4/8 - Pre-Processing: COMPLETED
+[8/12/2026 12:38:57 PM] Debug: TaskParam Lineage.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:57 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:57 PM] Debug: TaskParam Lineage.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:57 PM] Debug: TaskParam Lineage.Enabled = True
+[8/12/2026 12:38:57 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:57 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:57 PM] Info: Step 5/8 - Data lineage analysis: STARTED
+[8/12/2026 12:38:57 PM] Info: Step 5/8 - Data lineage analysis: COMPLETED
+[8/12/2026 12:38:57 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/12/2026 12:38:57 PM] Debug: TaskParam PreConversionAssessmentTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:57 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:57 PM] Debug: TaskParam PreConversionAssessmentTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:57 PM] Debug: TaskParam PreConversionAssessmentTask.Enabled = True
+[8/12/2026 12:38:57 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:57 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:57 PM] Info: Step 6/8 - Pre-Conversion Assessment: STARTED
+[8/12/2026 12:38:57 PM] Info: Step 6/8 - Pre-Conversion Assessment: COMPLETED
+[8/12/2026 12:38:57 PM] Debug: TaskParam TaskProvider = Mobilize.Snow.Common.SnowConvertTaskProvider
+[8/12/2026 12:38:57 PM] Debug: TaskParam TransformationsTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:57 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:57 PM] Debug: TaskParam TransformationsTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:57 PM] Debug: TaskParam TransformationsTask.Enabled = True
+[8/12/2026 12:38:57 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:57 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:58 PM] Info: Step 7/8 - Conversion Execution: STARTED
+[8/12/2026 12:38:58 PM] Info: Start transforming file staging.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file music_catalog.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file operations.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file ad_campaigns_history.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file v_campaign_performance.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file vevodb.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file public.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file analytics.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file public.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file spectrum_data.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file sp_generate_campaign_report.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file mv_sp__mv_advertiser_spend__4_2_cascade.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file sp_close_campaign.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file content_moderation.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file ad_campaigns.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file ad_placements.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file vevodb.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file mv_advertiser_spend.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file public.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file public.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file videos.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file artists.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file spectrum_data.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file analytics.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file operations.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file staging.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file ad_campaigns_history.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file channels.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file v_video_catalog.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file sp_refresh_daily_summary.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file mv_sp__mv_daily_revenue_summary__4_2_cascade.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file daily_streams.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file sp_close_campaign.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file music_catalog.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file ad_campaigns.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file ad_placements.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file user_engagement.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file v_top_artists_by_streams.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file content_moderation.sql
+[8/12/2026 12:38:58 PM] Info: Start transforming file mv_daily_revenue_summary.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file sp_generate_campaign_report.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file v_campaign_performance.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file sp_refresh_daily_summary.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file artists.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file daily_streams.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file mv_daily_revenue_summary.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file channels.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file user_engagement.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file videos.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file v_video_catalog.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file v_top_artists_by_streams.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file mv_advertiser_spend.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file mv_sp__mv_advertiser_spend__4_2_cascade.sql
+[8/12/2026 12:38:58 PM] Info: Transformed file mv_sp__mv_daily_revenue_summary__4_2_cascade.sql
+[8/12/2026 12:38:58 PM] Info: POWER BI: Starting repointing.
+[8/12/2026 12:38:58 PM] Info: POWER BI: Finishing repointing.
+[8/12/2026 12:38:58 PM] Info: [AgentJob] No Agent Job definitions detected in this migration
+[8/12/2026 12:38:58 PM] Info: Step 7/8 - Conversion Execution: COMPLETED
+[8/12/2026 12:38:58 PM] Debug: TaskParam TargetSymbolPartialFillingTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:58 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:58 PM] Debug: TaskParam TargetSymbolPartialFillingTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:58 PM] Debug: TaskParam TargetSymbolPartialFillingTask.Enabled = True
+[8/12/2026 12:38:58 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:58 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:58 PM] Info: Step 2/8 - Semantic Analysis of Tables: STARTED
+[8/12/2026 12:38:58 PM] Info: Target symbol table partial filling (Tables): STARTED
+[8/12/2026 12:38:58 PM] Info: Step 2/8 - Semantic Analysis of Tables: COMPLETED
+[8/12/2026 12:38:58 PM] Info: Target symbol table partial filling (Tables): COMPLETED
+[8/12/2026 12:38:58 PM] Debug: TaskParam TargetSymbolFullFillingTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:58 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:58 PM] Debug: TaskParam TargetSymbolFullFillingTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:58 PM] Debug: TaskParam TargetSymbolFullFillingTask.Enabled = True
+[8/12/2026 12:38:58 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:58 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:58 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STARTED
+[8/12/2026 12:38:58 PM] Info: Target symbol table full filling (Views and top-level objects): STARTED
+[8/12/2026 12:38:58 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORING
+[8/12/2026 12:38:58 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: STORED
+[8/12/2026 12:38:58 PM] Info: Step 3/8 - Semantic Analysis of Top Level Objects: COMPLETED
+[8/12/2026 12:38:58 PM] Info: Target symbol table full filling (Views and top-level objects): COMPLETED
+[8/12/2026 12:38:58 PM] Debug: TaskParam SnowScript = False
+[8/12/2026 12:38:58 PM] Debug: TaskParam reportPath = /Users/elieniringiyimana/Documents/test_migration_toool/migration/reports/SnowConvert
+[8/12/2026 12:38:58 PM] Debug: TaskParam totalProcessedLOC = 0
+[8/12/2026 12:38:58 PM] Debug: TaskParam inputPath = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source
+[8/12/2026 12:38:58 PM] Debug: TaskParam outputPath = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert
+[8/12/2026 12:38:58 PM] Debug: TaskParam SessionTimestamp = 20260812.123853
+[8/12/2026 12:38:58 PM] Debug: TaskParam snowConfiguration = Mobilize.Snow.Configuration.SnowConfiguration
+[8/12/2026 12:38:58 PM] Debug: TaskParam DashboardMode = False
+[8/12/2026 12:38:58 PM] Debug: TaskParam writeResultsProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[8/12/2026 12:38:58 PM] Debug: TaskParam snowExecutionResult = Mobilize.Snow.Assessment.SnowExecutionResult
+[8/12/2026 12:38:58 PM] Debug: TaskParam ConversionEndTask.Input = /Users/elieniringiyimana/Documents/test_migration_toool/migration/source/input.wsp
+[8/12/2026 12:38:58 PM] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet
+[8/12/2026 12:38:58 PM] Debug: TaskParam ConversionEndTask.ItemMetadata = Artinsoft.Common.Store.ItemMetadata
+[8/12/2026 12:38:58 PM] Debug: TaskParam ConversionEndTask.Enabled = True
+[8/12/2026 12:38:58 PM] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[8/12/2026 12:38:58 PM] Debug: TaskParam RepositoryDirectory = /Users/elieniringiyimana/Documents/test_migration_toool/migration/.scai/.snowconvert/.mobilize/CommonEF
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 1: Registry Initialization
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 2: 27 code unit entries built
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 3: Upsert Batch
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 4: Upsert UDF Entries
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 4b: Upsert Generated View Entries
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 4c: Upsert Masking Policy Entries
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 5: Update Planning Batch
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 6: Create Batch Missing Entries
+[8/12/2026 12:38:58 PM] Info: [CUR] Step 7: Update Dependencies Batch
+[8/12/2026 12:38:58 PM] Info: [CUR] Done
+[8/12/2026 12:38:58 PM] Info: EFProcess 639221531363736140 ended. Execution time: 00:00:02.2111524
+[8/12/2026 12:38:58 PM] Info: STARTED Step 8/8: Stats and Reports
+[8/12/2026 12:38:58 PM] Info: Writing the conversion summary report
+[8/12/2026 12:38:59 PM] Info: Writing the Assessment report
+[8/12/2026 12:38:59 PM] Info: Writing the Scope Validations report
+[8/12/2026 12:38:59 PM] Info: Writing the raw assessment data report
+[8/12/2026 12:38:59 PM] Info: Writing the object dependencies report
+[8/12/2026 12:38:59 PM] Info: Writing the sql objects report
+[8/12/2026 12:38:59 PM] Info: Writing the Elements report
+[8/12/2026 12:38:59 PM] Info: Writing the object references report
+[8/12/2026 12:38:59 PM] Info: Writing the top level code unit report
+[8/12/2026 12:38:59 PM] Info: Writing the Functions Usage Report report
+[8/12/2026 12:38:59 PM] Info: Writing the Issues report
+[8/12/2026 12:38:59 PM] Info: Writing the ETL and BI repointing report
+[8/12/2026 12:38:59 PM] Info: [Testbed] Wrote 16 artifact(s).
+[8/12/2026 12:38:59 PM] Info: Uploading metadata
+[8/12/2026 12:38:59 PM] Info: COMPLETED Step 8/8: Stats and Reports
+[8/12/2026 12:38:59 PM] Info: 
+==============================================================================
+SnowConvert assessment execution summary
+ - Files: 27
+ - Files Not Generated: 0
+ - Total lines of code: 210
+ - Automatically converted: 26.04%
+ - Conversion time: 00:00:02
+ - Conversion speed: 89 lines of code per second
+See the report files for more details about the conversion status.
+==============================================================================
+
+[8/12/2026 12:38:59 PM] Info: 
+==============================================================================
+SnowConvert Tool.
+Copyright © 2023-2026 Snowflake Inc. All rights reserved.
+==============================================================================
+
+[8/12/2026 12:38:59 PM] Info: Post-processing Code: STARTED
+[8/12/2026 12:38:59 PM] Info: Executing post-process task: 'PostgreSQL Python Function Uncomment Post-Process Task'
+[8/12/2026 12:38:59 PM] Info: Post-processing Code: COMPLETED

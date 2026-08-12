@@ -1,0 +1,129 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "e02b2761-84c6-427d-afc1-2674c74f2a36",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - FROM"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/analytics/materializedview/mv_daily_revenue_summary"
+    },
+    "converted": {
+      "checksum": "646ecede8e06eb2d0da6600d9f36b81a",
+      "path": "snowflake/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql"
+    },
+    "source": {
+      "checksum": "42e740d48d770e4ecf2cb766c99ecdec",
+      "path": "source/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql"
+    }
+  },
+  "id": "8a6c0c1b-41ff-4f3f-91b3-0307a49ae6f4",
+  "inScope": true,
+  "isMissing": false,
+  "issues": [
+    {
+      "code": "SSC-FDM-0031",
+      "count": 1
+    }
+  ],
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "stream_date",
+        "nullable": true,
+        "type": "DATE"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "country",
+        "nullable": true,
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_streams",
+        "nullable": true,
+        "type": "EXACTNUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_unique_viewers",
+        "nullable": true,
+        "type": "EXACTNUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_revenue",
+        "nullable": true,
+        "type": "NUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "avg_watch_time",
+        "nullable": true,
+        "type": "APROXNUMERIC"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.analytics.mv_daily_revenue_summary",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "mv_daily_revenue_summary",
+    "objectType": "materializedView",
+    "platform": "redshift",
+    "schema": "analytics"
+  },
+  "target": {
+    "canonicalName": "vevodb.analytics.mv_daily_revenue_summary",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "mv_daily_revenue_summary",
+    "objectType": "materializedView",
+    "schema": "analytics"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

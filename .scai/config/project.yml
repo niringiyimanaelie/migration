@@ -1,0 +1,9 @@
+schema_version: 1.0
+project_id: MIGRATION_PROJECT_4bec8ef2_c978_4a39_b30c_d86e8fa34719
+project_name: migration
+source_language: Redshift
+created_by: elieniringiyimana
+created_at: 2026-08-12T16:08:32.9564200Z
+cloud_project_id: MIGRATION_PROJECT_4bec8ef2_c978_4a39_b30c_d86e8fa34719
+project_type: full_migration
+enable_cloud_status: true

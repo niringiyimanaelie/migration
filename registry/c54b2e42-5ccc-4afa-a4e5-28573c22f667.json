@@ -1,0 +1,149 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "e02b2761-84c6-427d-afc1-2674c74f2a36",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      },
+      {
+        "id": "da7cbbf4-e761-4715-bf92-b4871a24aea3",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      },
+      {
+        "id": "933cc0fb-51e6-43aa-8d7a-6b747dec2c05",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/analytics/view/v_top_artists_by_streams"
+    },
+    "converted": {
+      "checksum": "71aef844b84dff37cd7c81de2f786c36",
+      "path": "snowflake/vevodb/analytics/view/v_top_artists_by_streams.sql"
+    },
+    "source": {
+      "checksum": "62e293e6a5a5cac74dad1e6d7d42e66c",
+      "path": "source/vevodb/analytics/view/v_top_artists_by_streams.sql"
+    }
+  },
+  "id": "c54b2e42-5ccc-4afa-a4e5-28573c22f667",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "artist_name",
+        "nullable": true,
+        "targetName": "artist_name",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "genre",
+        "nullable": true,
+        "targetName": "genre",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "country",
+        "nullable": true,
+        "targetName": "country",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_streams",
+        "nullable": true,
+        "targetName": "total_streams",
+        "targetType": "EXACTNUMERIC",
+        "type": "EXACTNUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "total_revenue",
+        "nullable": true,
+        "targetName": "total_revenue",
+        "targetType": "NUMERIC",
+        "type": "NUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "active_days",
+        "nullable": true,
+        "targetName": "active_days",
+        "targetType": "EXACTNUMERIC",
+        "type": "EXACTNUMERIC"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.analytics.v_top_artists_by_streams",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "v_top_artists_by_streams",
+    "objectType": "view",
+    "platform": "redshift",
+    "schema": "analytics"
+  },
+  "target": {
+    "canonicalName": "vevodb.analytics.v_top_artists_by_streams",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "v_top_artists_by_streams",
+    "objectType": "view",
+    "schema": "analytics"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

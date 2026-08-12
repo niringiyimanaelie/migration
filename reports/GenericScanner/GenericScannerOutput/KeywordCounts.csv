@@ -1,0 +1,376 @@
+File,Technology,Keyword,Count
+/database/vevodb.sql,SQL,create database,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,=,3
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,as,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,begin,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,bigint,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,character,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,count,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,create or replace procedure,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,decimal,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,declare,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,end,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,from,2
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,int,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,into,2
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,join,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,language,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,on,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,operations,4
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,raise,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,select,2
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,sum,2
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,varying,1
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,where,2
+/vevodb/operations/procedure/sp_generate_campaign_report.sql,SQL,*,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,=,21
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,alter table,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,and,72
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,as,211
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,backup,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,begin,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,bigint,3
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,boolean,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,case,21
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,cast,131
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,character,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,coalesce,5
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,count,4
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,create or replace view,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,create or replace procedure,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,create temp table,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,create table,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,delete,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,drop table,3
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,else,22
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,end,23
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,execute,3
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,false,44
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,from,11
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,group by,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,if,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,in,24
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,insert,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,into,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,is not null,12
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,is null,8
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,key,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,language,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,left outer join,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,not,26
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,null,5
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,nvl,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,on,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,operations,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,or,36
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,rename,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,round,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,select,10
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,sum,10
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,then,22
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,to,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,union all,3
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,using,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,varying,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,when,21
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,where,8
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,yes,1
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,||,132
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,*,10
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,+,11
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,-,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,/,2
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,<>,8
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,<=,12
+/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,SQL,>,13
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,=,4
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,and,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,as,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,begin,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,create or replace procedure,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,current_date,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,end,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,integer,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,language,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,operations,2
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,set,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,update,1
+/vevodb/operations/procedure/sp_close_campaign.sql,SQL,where,1
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,az64,5
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,boolean,1
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,create table if not exists,1
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,date,3
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,default,4
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,encode,10
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,getdate,2
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,integer,1
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,lzo,3
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,numeric,1
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,operations,1
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,raw,2
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,timestamp without time zone,2
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,true,1
+/vevodb/operations/table/ad_campaigns_history.sql,SQL,varchar,3
+/vevodb/operations/table/ad_campaigns.sql,SQL,az64,5
+/vevodb/operations/table/ad_campaigns.sql,SQL,character,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,create table if not exists,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,date,2
+/vevodb/operations/table/ad_campaigns.sql,SQL,default,3
+/vevodb/operations/table/ad_campaigns.sql,SQL,encode,9
+/vevodb/operations/table/ad_campaigns.sql,SQL,getdate,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,integer,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,lzo,4
+/vevodb/operations/table/ad_campaigns.sql,SQL,not null,2
+/vevodb/operations/table/ad_campaigns.sql,SQL,numeric,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,operations,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,primary key,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,text,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,timestamp without time zone,1
+/vevodb/operations/table/ad_campaigns.sql,SQL,varchar,4
+/vevodb/operations/table/ad_campaigns.sql,SQL,varying,1
+/vevodb/operations/table/content_moderation.sql,SQL,az64,4
+/vevodb/operations/table/content_moderation.sql,SQL,create table if not exists,1
+/vevodb/operations/table/content_moderation.sql,SQL,default,1
+/vevodb/operations/table/content_moderation.sql,SQL,encode,8
+/vevodb/operations/table/content_moderation.sql,SQL,integer,2
+/vevodb/operations/table/content_moderation.sql,SQL,lzo,4
+/vevodb/operations/table/content_moderation.sql,SQL,not null,1
+/vevodb/operations/table/content_moderation.sql,SQL,operations,1
+/vevodb/operations/table/content_moderation.sql,SQL,primary key,1
+/vevodb/operations/table/content_moderation.sql,SQL,text,1
+/vevodb/operations/table/content_moderation.sql,SQL,timestamp without time zone,2
+/vevodb/operations/table/content_moderation.sql,SQL,varchar,4
+/vevodb/operations/table/ad_placements.sql,SQL,az64,7
+/vevodb/operations/table/ad_placements.sql,SQL,bigint,3
+/vevodb/operations/table/ad_placements.sql,SQL,create table if not exists,1
+/vevodb/operations/table/ad_placements.sql,SQL,date,1
+/vevodb/operations/table/ad_placements.sql,SQL,default,1
+/vevodb/operations/table/ad_placements.sql,SQL,encode,8
+/vevodb/operations/table/ad_placements.sql,SQL,integer,2
+/vevodb/operations/table/ad_placements.sql,SQL,not null,1
+/vevodb/operations/table/ad_placements.sql,SQL,numeric,2
+/vevodb/operations/table/ad_placements.sql,SQL,operations,1
+/vevodb/operations/table/ad_placements.sql,SQL,primary key,1
+/vevodb/operations/table/ad_placements.sql,SQL,raw,1
+/vevodb/operations/table/ad_placements.sql,SQL,text,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,=,2
+/vevodb/operations/view/v_campaign_performance.sql,SQL,as,6
+/vevodb/operations/view/v_campaign_performance.sql,SQL,avg,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,case,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,create view,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,else,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,end,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,from,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,group by,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,join,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,left,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,null,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,numeric,4
+/vevodb/operations/view/v_campaign_performance.sql,SQL,on,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,operations,3
+/vevodb/operations/view/v_campaign_performance.sql,SQL,round,2
+/vevodb/operations/view/v_campaign_performance.sql,SQL,select,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,sum,4
+/vevodb/operations/view/v_campaign_performance.sql,SQL,then,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,when,1
+/vevodb/operations/view/v_campaign_performance.sql,SQL,*,2
+/vevodb/operations/view/v_campaign_performance.sql,SQL,/,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,=,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,as,5
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,create materialized view,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,float,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,from,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,group by,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,join,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,nullif,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,on,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,operations,3
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,round,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,select,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,sum,5
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,*,1
+/vevodb/operations/materializedview/mv_advertiser_spend.sql,SQL,/,1
+/vevodb/schema/music_catalog.sql,SQL,authorization,1
+/vevodb/schema/music_catalog.sql,SQL,create schema if not exists,1
+/vevodb/schema/operations.sql,SQL,authorization,1
+/vevodb/schema/operations.sql,SQL,create schema if not exists,1
+/vevodb/schema/operations.sql,SQL,operations,1
+/vevodb/schema/analytics.sql,SQL,authorization,1
+/vevodb/schema/analytics.sql,SQL,create schema if not exists,1
+/vevodb/schema/staging.sql,SQL,authorization,1
+/vevodb/schema/staging.sql,SQL,create schema if not exists,1
+/vevodb/schema/spectrum_data.sql,SQL,authorization,1
+/vevodb/schema/spectrum_data.sql,SQL,create schema if not exists,1
+/vevodb/schema/public.sql,SQL,authorization,1
+/vevodb/schema/public.sql,SQL,create schema if not exists,1
+/vevodb/schema/public.sql,SQL,public,1
+/vevodb/music_catalog/table/videos.sql,SQL,az64,6
+/vevodb/music_catalog/table/videos.sql,SQL,bigint,1
+/vevodb/music_catalog/table/videos.sql,SQL,boolean,1
+/vevodb/music_catalog/table/videos.sql,SQL,character,1
+/vevodb/music_catalog/table/videos.sql,SQL,create table if not exists,1
+/vevodb/music_catalog/table/videos.sql,SQL,date,1
+/vevodb/music_catalog/table/videos.sql,SQL,default,5
+/vevodb/music_catalog/table/videos.sql,SQL,encode,10
+/vevodb/music_catalog/table/videos.sql,SQL,false,1
+/vevodb/music_catalog/table/videos.sql,SQL,getdate,1
+/vevodb/music_catalog/table/videos.sql,SQL,integer,3
+/vevodb/music_catalog/table/videos.sql,SQL,lzo,3
+/vevodb/music_catalog/table/videos.sql,SQL,not null,2
+/vevodb/music_catalog/table/videos.sql,SQL,primary key,1
+/vevodb/music_catalog/table/videos.sql,SQL,raw,1
+/vevodb/music_catalog/table/videos.sql,SQL,text,1
+/vevodb/music_catalog/table/videos.sql,SQL,timestamp without time zone,1
+/vevodb/music_catalog/table/videos.sql,SQL,title,1
+/vevodb/music_catalog/table/videos.sql,SQL,varchar,3
+/vevodb/music_catalog/table/videos.sql,SQL,varying,1
+/vevodb/music_catalog/table/artists.sql,SQL,az64,4
+/vevodb/music_catalog/table/artists.sql,SQL,bigint,1
+/vevodb/music_catalog/table/artists.sql,SQL,create table if not exists,1
+/vevodb/music_catalog/table/artists.sql,SQL,default,2
+/vevodb/music_catalog/table/artists.sql,SQL,encode,8
+/vevodb/music_catalog/table/artists.sql,SQL,getdate,1
+/vevodb/music_catalog/table/artists.sql,SQL,integer,2
+/vevodb/music_catalog/table/artists.sql,SQL,lzo,4
+/vevodb/music_catalog/table/artists.sql,SQL,not null,2
+/vevodb/music_catalog/table/artists.sql,SQL,primary key,1
+/vevodb/music_catalog/table/artists.sql,SQL,text,1
+/vevodb/music_catalog/table/artists.sql,SQL,timestamp without time zone,1
+/vevodb/music_catalog/table/artists.sql,SQL,varchar,4
+/vevodb/music_catalog/table/channels.sql,SQL,az64,4
+/vevodb/music_catalog/table/channels.sql,SQL,bigint,1
+/vevodb/music_catalog/table/channels.sql,SQL,boolean,1
+/vevodb/music_catalog/table/channels.sql,SQL,character,1
+/vevodb/music_catalog/table/channels.sql,SQL,create table if not exists,1
+/vevodb/music_catalog/table/channels.sql,SQL,default,4
+/vevodb/music_catalog/table/channels.sql,SQL,encode,7
+/vevodb/music_catalog/table/channels.sql,SQL,false,1
+/vevodb/music_catalog/table/channels.sql,SQL,getdate,1
+/vevodb/music_catalog/table/channels.sql,SQL,integer,2
+/vevodb/music_catalog/table/channels.sql,SQL,lzo,2
+/vevodb/music_catalog/table/channels.sql,SQL,not null,1
+/vevodb/music_catalog/table/channels.sql,SQL,primary key,1
+/vevodb/music_catalog/table/channels.sql,SQL,raw,1
+/vevodb/music_catalog/table/channels.sql,SQL,text,1
+/vevodb/music_catalog/table/channels.sql,SQL,timestamp without time zone,1
+/vevodb/music_catalog/table/channels.sql,SQL,varchar,2
+/vevodb/music_catalog/table/channels.sql,SQL,varying,1
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,=,2
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,as,1
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,create view,1
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,from,1
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,join,2
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,left,1
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,on,2
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,select,1
+/vevodb/music_catalog/view/v_video_catalog.sql,SQL,title,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,as,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,begin,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,create or replace procedure,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,date,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,end,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,language,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,materialized,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,refresh,1
+/vevodb/analytics/procedure/sp_refresh_daily_summary.sql,SQL,view,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,=,25
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,alter table,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,and,57
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,as,189
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,backup,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,begin,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,bigint,3
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,boolean,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,case,38
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,cast,133
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,character,2
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,coalesce,9
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,count,6
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,create or replace view,2
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,create or replace procedure,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,create temp table,2
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,create table,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,delete,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,drop table,3
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,else,39
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,end,40
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,execute,3
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,false,45
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,from,7
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,group by,2
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,if,2
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,in,18
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,insert,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,into,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,is not null,18
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,is null,14
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,language,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,left outer join,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,not,19
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,null,4
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,nvl,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,on,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,or,43
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,rename,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,select,6
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,sum,14
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,then,39
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,to,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,using,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,varying,2
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,when,38
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,where,4
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,yes,1
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,||,122
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,*,5
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,+,15
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,-,10
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,<>,12
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,<=,4
+/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,SQL,>,15
+/vevodb/analytics/table/daily_streams.sql,SQL,az64,6
+/vevodb/analytics/table/daily_streams.sql,SQL,bigint,3
+/vevodb/analytics/table/daily_streams.sql,SQL,create table if not exists,1
+/vevodb/analytics/table/daily_streams.sql,SQL,date,1
+/vevodb/analytics/table/daily_streams.sql,SQL,default,1
+/vevodb/analytics/table/daily_streams.sql,SQL,encode,9
+/vevodb/analytics/table/daily_streams.sql,SQL,integer,2
+/vevodb/analytics/table/daily_streams.sql,SQL,lzo,2
+/vevodb/analytics/table/daily_streams.sql,SQL,not null,2
+/vevodb/analytics/table/daily_streams.sql,SQL,numeric,1
+/vevodb/analytics/table/daily_streams.sql,SQL,primary key,1
+/vevodb/analytics/table/daily_streams.sql,SQL,raw,1
+/vevodb/analytics/table/daily_streams.sql,SQL,text,1
+/vevodb/analytics/table/daily_streams.sql,SQL,varchar,2
+/vevodb/analytics/table/user_engagement.sql,SQL,az64,7
+/vevodb/analytics/table/user_engagement.sql,SQL,bigint,6
+/vevodb/analytics/table/user_engagement.sql,SQL,create table if not exists,1
+/vevodb/analytics/table/user_engagement.sql,SQL,date,1
+/vevodb/analytics/table/user_engagement.sql,SQL,default,6
+/vevodb/analytics/table/user_engagement.sql,SQL,encode,8
+/vevodb/analytics/table/user_engagement.sql,SQL,integer,1
+/vevodb/analytics/table/user_engagement.sql,SQL,not null,1
+/vevodb/analytics/table/user_engagement.sql,SQL,primary key,1
+/vevodb/analytics/table/user_engagement.sql,SQL,raw,1
+/vevodb/analytics/table/user_engagement.sql,SQL,text,1
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,=,2
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,as,4
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,count,1
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,create view,1
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,distinct,1
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,from,1
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,group by,1
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,join,2
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,on,2
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,select,1
+/vevodb/analytics/view/v_top_artists_by_streams.sql,SQL,sum,2
+/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,SQL,as,5
+/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,SQL,avg,1
+/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,SQL,create materialized view,1
+/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,SQL,from,1
+/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,SQL,group by,1
+/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,SQL,select,1
+/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,SQL,sum,3
+/dev/schema/public.sql,SQL,authorization,1
+/dev/schema/public.sql,SQL,create schema if not exists,1
+/dev/schema/public.sql,SQL,public,1

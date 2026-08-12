@@ -1,0 +1,38 @@
+{
+  "object": "vevodb.operations.sp_close_campaign(INTEGER)",
+  "object_type": "PROCEDURE",
+  "branches": [],
+  "predicates": [
+    {
+      "table": "vevodb.operations.ad_campaigns",
+      "column": "campaign_id",
+      "operator": "=",
+      "values": [
+        "p_campaign_id"
+      ]
+    },
+    {
+      "table": "vevodb.operations.ad_campaigns",
+      "column": "status",
+      "operator": "=",
+      "values": [
+        "active"
+      ]
+    }
+  ],
+  "edges": [],
+  "assignments": [
+    {
+      "table": "vevodb.operations.ad_campaigns",
+      "column": "end_date",
+      "value": "CURRENT_DATE"
+    },
+    {
+      "table": "vevodb.operations.ad_campaigns",
+      "column": "status",
+      "value": "completed"
+    }
+  ],
+  "semi_anti": [],
+  "schema_version": 1
+}

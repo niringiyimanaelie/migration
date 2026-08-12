@@ -1,0 +1,89 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/analytics/procedure/sp_refresh_daily_summary"
+    },
+    "converted": {
+      "checksum": "e710277f67d66cec5caf27fafb751b8e",
+      "path": "snowflake/vevodb/analytics/procedure/sp_refresh_daily_summary.sql"
+    },
+    "source": {
+      "checksum": "b5dd46ae32864cdd9bf12d8eabe2f2bb",
+      "path": "source/vevodb/analytics/procedure/sp_refresh_daily_summary.sql"
+    }
+  },
+  "id": "1d3b0752-680e-410f-bacd-06d73d2ca347",
+  "inScope": true,
+  "isMissing": false,
+  "issues": [
+    {
+      "code": "SSC-EWI-0073",
+      "count": 1,
+      "severity": "medium"
+    }
+  ],
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [],
+    "parameters": {
+      "arguments": [
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "target_date",
+          "required": true,
+          "targetName": "target_date",
+          "targetType": "DATE",
+          "type": "DATE"
+        }
+      ],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.analytics.sp_refresh_daily_summary(DATE)",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "sp_refresh_daily_summary",
+    "objectType": "procedure",
+    "platform": "redshift",
+    "schema": "analytics"
+  },
+  "target": {
+    "canonicalName": "vevodb.analytics.sp_refresh_daily_summary(DATE)",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "sp_refresh_daily_summary",
+    "objectType": "procedure",
+    "schema": "analytics"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

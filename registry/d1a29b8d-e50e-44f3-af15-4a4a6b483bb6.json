@@ -1,0 +1,138 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "dce86bde-cf72-4c6c-8d59-65293247c7d6"
+    ]
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/music_catalog/table/channels"
+    },
+    "converted": {
+      "checksum": "940c0ce2d7d6915aad527ebdc9a5bc37",
+      "path": "snowflake/vevodb/music_catalog/table/channels.sql"
+    },
+    "source": {
+      "checksum": "e9f205a7d23c1f4dd4b89fec1352310b",
+      "path": "source/vevodb/music_catalog/table/channels.sql"
+    }
+  },
+  "id": "d1a29b8d-e50e-44f3-af15-4a4a6b483bb6",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "channel_id",
+        "nullable": true,
+        "targetName": "channel_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "artist_id",
+        "nullable": true,
+        "targetName": "artist_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "channel_name",
+        "nullable": true,
+        "targetName": "channel_name",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "platform",
+        "nullable": true,
+        "targetName": "platform",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "subscriber_count",
+        "nullable": true,
+        "targetName": "subscriber_count",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "verified",
+        "nullable": true,
+        "targetName": "verified",
+        "targetType": "BOOLEAN",
+        "type": "BOOLEAN"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "created_at",
+        "nullable": true,
+        "targetName": "created_at",
+        "targetType": "",
+        "type": "TIMESTAMP"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.music_catalog.channels",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "channels",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "music_catalog"
+  },
+  "target": {
+    "canonicalName": "vevodb.music_catalog.channels",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "channels",
+    "objectType": "table",
+    "schema": "music_catalog"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

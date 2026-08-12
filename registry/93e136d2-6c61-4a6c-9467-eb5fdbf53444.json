@@ -1,0 +1,32 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "exclusion": [],
+      "status": "failed"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "23c7fd51-5295-435b-83c1-a5a7118caf01"
+    ]
+  },
+  "extensions": {},
+  "id": "93e136d2-6c61-4a6c-9467-eb5fdbf53444",
+  "inScope": true,
+  "isMissing": true,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "source": {
+    "canonicalName": "\"analytics\".\"mv_tbl__mv_daily_revenue_summary__0\"",
+    "name": "\"mv_tbl__mv_daily_revenue_summary__0\"",
+    "objectType": "other",
+    "schema": "\"analytics\""
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

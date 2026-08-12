@@ -1,0 +1,202 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "bd2b0293-a87a-4b83-952a-5bac649736c9",
+        "isMissing": true,
+        "relationTypes": [
+          "DROP",
+          "SELECT - FROM"
+        ]
+      },
+      {
+        "id": "898bc9a7-84ee-42bf-a010-9456da9d3cfc",
+        "isMissing": true,
+        "relationTypes": [
+          "DROP"
+        ]
+      },
+      {
+        "id": "cc39615c-6fd8-49cc-9625-92cb3825b134",
+        "isMissing": true,
+        "relationTypes": [
+          "INSERT",
+          "DELETE",
+          "SELECT - FROM",
+          "DROP"
+        ]
+      },
+      {
+        "id": "907a48f1-9860-4a38-abf0-95fac26a5578",
+        "isMissing": true,
+        "relationTypes": [
+          "ALTER",
+          "SELECT - FROM"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": true,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade"
+    },
+    "converted": {
+      "checksum": "ec25db28784a57ecd4c40bf5c1c3be54",
+      "path": "snowflake/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql"
+    },
+    "source": {
+      "checksum": "104efdaa536c0c1d6252e37199657102",
+      "path": "source/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql"
+    }
+  },
+  "id": "df0abf9d-0187-43d8-90d2-4f2cdb37b290",
+  "inScope": true,
+  "isMissing": false,
+  "issues": [
+    {
+      "code": "SSC-EWI-0073",
+      "count": 72,
+      "severity": "medium"
+    },
+    {
+      "code": "SSC-EWI-0027",
+      "count": 3,
+      "severity": "medium"
+    },
+    {
+      "code": "SSC-FDM-0019",
+      "count": 1
+    },
+    {
+      "code": "SSC-FDM-0007",
+      "count": 1
+    }
+  ],
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [],
+    "parameters": {
+      "arguments": [
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "start_xid",
+          "required": true,
+          "targetName": "start_xid",
+          "targetType": "BIGINT",
+          "type": "BIGINT"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "end_xid",
+          "required": true,
+          "targetName": "end_xid",
+          "targetType": "BIGINT",
+          "type": "BIGINT"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "recompute_mv",
+          "required": true,
+          "targetName": "recompute_mv",
+          "targetType": "BOOLEAN",
+          "type": "BOOLEAN"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "finished_xid_list",
+          "required": true,
+          "targetName": "finished_xid_list",
+          "targetType": "VARCHAR",
+          "type": "CHARACTER VARYING"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "cascade_xid",
+          "required": true,
+          "targetName": "cascade_xid",
+          "targetType": "BIGINT",
+          "type": "BIGINT"
+        },
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "last_cascade_xids",
+          "required": true,
+          "targetName": "last_cascade_xids",
+          "targetType": "VARCHAR",
+          "type": "CHARACTER VARYING"
+        }
+      ],
+      "returns": [
+        {
+          "name": "\"advertiser\"",
+          "targetName": "advertiser"
+        },
+        {
+          "name": "\"total_impressions\"",
+          "targetName": "total_impressions"
+        },
+        {
+          "name": "\"total_clicks\"",
+          "targetName": "total_clicks"
+        },
+        {
+          "name": "\"total_spend\"",
+          "targetName": "total_spend"
+        },
+        {
+          "name": "\"overall_ctr\"",
+          "targetName": "overall_ctr"
+        }
+      ]
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "mv_sp__mv_advertiser_spend__4_2_cascade",
+    "objectType": "procedure",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,VARCHAR,BIGINT,VARCHAR)",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "mv_sp__mv_advertiser_spend__4_2_cascade",
+    "objectType": "procedure",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

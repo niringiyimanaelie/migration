@@ -1,0 +1,30 @@
+sql_object_id,file_path,sql_object_type,presence,line_number,lines_of_code,deployment_order
+"vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)",vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql,PROCEDURE,BOTH,1,3,1*
+vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING),vevodb/operations/procedure/sp_generate_campaign_report.sql,PROCEDURE,BOTH,1,21,1
+vevodb.operations.v_campaign_performance,vevodb/operations/view/v_campaign_performance.sql,VIEW,BOTH,1,9,1
+vevodb.operations.sp_close_campaign(INTEGER),vevodb/operations/procedure/sp_close_campaign.sql,PROCEDURE,BOTH,1,9,1
+vevodb.music_catalog,vevodb/schema/music_catalog.sql,SCHEMA,BOTH,1,1,0
+vevodb.music_catalog.v_video_catalog,vevodb/music_catalog/view/v_video_catalog.sql,VIEW,BOTH,1,5,1
+vevodb.staging,vevodb/schema/staging.sql,SCHEMA,BOTH,1,1,0
+vevodb.music_catalog.channels,vevodb/music_catalog/table/channels.sql,TABLE,BOTH,1,11,0
+vevodb.public,vevodb/schema/public.sql,SCHEMA,BOTH,1,1,0
+vevodb.music_catalog.artists,vevodb/music_catalog/table/artists.sql,TABLE,BOTH,1,12,0
+vevodb.analytics,vevodb/schema/analytics.sql,SCHEMA,BOTH,1,1,0
+vevodb.operations.mv_advertiser_spend,vevodb/operations/materializedview/mv_advertiser_spend.sql,MATERIALIZED VIEW,BOTH,2,9,1
+vevodb.spectrum_data,vevodb/schema/spectrum_data.sql,SCHEMA,BOTH,1,1,0
+"vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)",vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql,PROCEDURE,BOTH,1,3,1*
+vevodb.operations.ad_campaigns_history,vevodb/operations/table/ad_campaigns_history.sql,TABLE,BOTH,1,13,0
+vevodb.operations.ad_campaigns,vevodb/operations/table/ad_campaigns.sql,TABLE,BOTH,1,13,0
+vevodb.analytics.user_engagement,vevodb/analytics/table/user_engagement.sql,TABLE,BOTH,1,12,0
+vevodb,database/vevodb.sql,DATABASE,BOTH,1,1,0
+vevodb.analytics.sp_refresh_daily_summary(DATE),vevodb/analytics/procedure/sp_refresh_daily_summary.sql,PROCEDURE,BOTH,1,7,0
+vevodb.operations.content_moderation,vevodb/operations/table/content_moderation.sql,TABLE,BOTH,1,12,0
+vevodb.analytics.mv_daily_revenue_summary,vevodb/analytics/materializedview/mv_daily_revenue_summary.sql,MATERIALIZED VIEW,BOTH,2,9,1
+vevodb.operations.ad_placements,vevodb/operations/table/ad_placements.sql,TABLE,BOTH,1,12,0
+vevodb.analytics.v_top_artists_by_streams,vevodb/analytics/view/v_top_artists_by_streams.sql,VIEW,BOTH,1,6,1
+dev.public,dev/schema/public.sql,SCHEMA,BOTH,1,1,0
+vevodb.music_catalog.videos,vevodb/music_catalog/table/videos.sql,TABLE,BOTH,1,14,0
+vevodb.operations,vevodb/schema/operations.sql,SCHEMA,BOTH,1,1,0
+vevodb.analytics.daily_streams,vevodb/analytics/table/daily_streams.sql,TABLE,BOTH,1,13,0
+PUBLIC.RAISE_MESSAGE_UDP(),UDF Helpers/RAISE_MESSAGE_UDP.sql,FUNCTION,SNOWFLAKE_ONLY,,,0
+PUBLIC.STRING_FORMAT_UDF(),UDF Helpers/STRING_FORMAT_UDF.sql,FUNCTION,SNOWFLAKE_ONLY,,,0

@@ -1,0 +1,40 @@
+[8/12/2026 4:33:22 PM] Info: ========================================
+[8/12/2026 4:33:22 PM] Info: Starting Code Extraction
+[8/12/2026 4:33:22 PM] Info: ========================================
+[8/12/2026 4:33:22 PM] Info: Source Database: Redshift
+[8/12/2026 4:33:22 PM] Info: Connection ID: my-redshift-std
+[8/12/2026 4:33:22 PM] Info: ========================================
+[8/12/2026 4:33:22 PM] Info: Extracting Database vevodb -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/database/vevodb.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Schema vevodb.music_catalog -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/schema/music_catalog.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Schema vevodb.analytics -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/schema/analytics.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Schema vevodb.operations -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/schema/operations.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Schema vevodb.public -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/schema/public.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Schema vevodb.spectrum_data -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/schema/spectrum_data.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Schema vevodb.staging -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/schema/staging.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Schema dev.public -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/dev/schema/public.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.music_catalog.videos -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/music_catalog/table/videos.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.music_catalog.channels -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/music_catalog/table/channels.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.music_catalog.artists -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/music_catalog/table/artists.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.analytics.daily_streams -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/analytics/table/daily_streams.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.analytics.user_engagement -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/analytics/table/user_engagement.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.operations.ad_placements -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/table/ad_placements.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.operations.ad_campaigns -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/table/ad_campaigns.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.operations.content_moderation -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/table/content_moderation.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Table vevodb.operations.ad_campaigns_history -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/table/ad_campaigns_history.sql
+[8/12/2026 4:33:22 PM] Info: Extracting View vevodb.operations.v_campaign_performance -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/view/v_campaign_performance.sql
+[8/12/2026 4:33:22 PM] Info: Extracting View vevodb.music_catalog.v_video_catalog -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/music_catalog/view/v_video_catalog.sql
+[8/12/2026 4:33:22 PM] Info: Extracting View vevodb.analytics.v_top_artists_by_streams -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/analytics/view/v_top_artists_by_streams.sql
+[8/12/2026 4:33:22 PM] Info: Extracting MaterializedView vevodb.operations.mv_advertiser_spend -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/materializedview/mv_advertiser_spend.sql
+[8/12/2026 4:33:22 PM] Info: Extracting MaterializedView vevodb.analytics.mv_daily_revenue_summary -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Procedure vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING) -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Procedure vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING) -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/procedure/mv_sp__mv_advertiser_spend__4_2_cascade.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Procedure vevodb.analytics.sp_refresh_daily_summary(DATE) -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/analytics/procedure/sp_refresh_daily_summary.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Procedure vevodb.operations.sp_close_campaign(INTEGER) -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/procedure/sp_close_campaign.sql
+[8/12/2026 4:33:22 PM] Info: Extracting Procedure vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING) -> /Users/elieniringiyimana/Documents/test_migration_toool/migration/artifacts/source_raw/vevodb/operations/procedure/sp_generate_campaign_report.sql
+[8/12/2026 4:33:28 PM] Info: ========================================
+[8/12/2026 4:33:28 PM] Info: Code Extraction Completed Successfully
+[8/12/2026 4:33:28 PM] Info: Total Objects: 27
+[8/12/2026 4:33:28 PM] Info: Successful: 27
+[8/12/2026 4:33:28 PM] Info: Failed: 0
+[8/12/2026 4:33:28 PM] Info: Execution Time: 00:00:06
+[8/12/2026 4:33:28 PM] Info: ========================================

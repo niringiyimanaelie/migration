@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "generatedAt": "2026-08-12T17:52:15.742135Z",
+    "tool": {
+      "version": "2.40.0.0",
+      "subcommand": "assessment waves"
+    },
+    "parameters": {
+      "minSize": 40,
+      "maxSize": 80,
+      "prioritizePatterns": [],
+      "categoryWavesEnabled": true
+    }
+  },
+  "graphSummary": {
+    "nodes": 37,
+    "edges": 22,
+    "averageDependenciesPerNode": 0.59,
+    "connectivity": {
+      "weaklyConnectedCodeUnits": 18,
+      "stronglyConnectedCodeUnits": 37,
+      "cyclicDependenciesCount": 0
+    },
+    "statistics": {
+      "codeUnitsWithoutDependencies": 28,
+      "codeUnitsWithoutDependents": 23,
+      "maxDependenciesPerCodeUnit": 4,
+      "maxDependentsPerCodeUnit": 4
+    }
+  },
+  "cycles": [],
+  "objects": [
+    {
+      "id": "09c307f8-bae0-491f-a514-cbbdd04c93e7",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "12dd7c67-5dc2-471b-beaa-eddd90b7b621",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "156b6732-be9d-45c5-8c28-e90ebb0b5836",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 2,
+      "totalDirectDependencies": 2,
+      "totalDirectDependents": 0,
+      "totalDependencies": 2,
+      "totalDependents": 0
+    },
+    {
+      "id": "15dea79b-f0d7-432f-b863-d082cb2b27e4",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "1a1ddce3-f1bf-4d88-99ae-20b810ee0685",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "1d3b0752-680e-410f-bacd-06d73d2ca347",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "1ef9a9a3-02a4-427b-a889-6b37c19f5ba2",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "23c7fd51-5295-435b-83c1-a5a7118caf01",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 2,
+      "totalDirectDependencies": 4,
+      "totalDirectDependents": 0,
+      "totalDependencies": 4,
+      "totalDependents": 0
+    },
+    {
+      "id": "2d215e5b-ea63-47fd-a07f-1943c4b8a164",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "3ab4d71c-c865-4764-af58-d31edebebca4",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 2,
+      "totalDirectDependencies": 2,
+      "totalDirectDependents": 0,
+      "totalDependencies": 2,
+      "totalDependents": 0
+    },
+    {
+      "id": "4ab2fc4b-5c9f-417a-9c63-e82d8cb48879",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "555a35a1-3279-45b7-8b2b-fa93af187a2e",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 2,
+      "totalDirectDependencies": 1,
+      "totalDirectDependents": 0,
+      "totalDependencies": 1,
+      "totalDependents": 0
+    },
+    {
+      "id": "6b3d0e4f-60d7-489e-bc99-f082a7641ce9",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "781140cd-a22c-4133-8aee-120e31d088d9",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "85b2b0ee-7f4b-47b2-977f-535e5592577d",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "898bc9a7-84ee-42bf-a010-9456da9d3cfc",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "8a6c0c1b-41ff-4f3f-91b3-0307a49ae6f4",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 2,
+      "totalDirectDependencies": 1,
+      "totalDirectDependents": 0,
+      "totalDependencies": 1,
+      "totalDependents": 0
+    },
+    {
+      "id": "907a48f1-9860-4a38-abf0-95fac26a5578",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "933cc0fb-51e6-43aa-8d7a-6b747dec2c05",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 2,
+      "totalDependencies": 0,
+      "totalDependents": 2
+    },
+    {
+      "id": "93e136d2-6c61-4a6c-9467-eb5fdbf53444",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "9a303e7c-1e97-43d8-a302-9a95d329f371",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "9f45623b-622e-444e-bf5c-4dfe942649c3",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 3,
+      "totalDependencies": 0,
+      "totalDependents": 3
+    },
+    {
+      "id": "ac4526be-710a-49f1-8dc7-e093c2e7e775",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "bd2b0293-a87a-4b83-952a-5bac649736c9",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "c54b2e42-5ccc-4afa-a4e5-28573c22f667",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 2,
+      "totalDirectDependencies": 3,
+      "totalDirectDependents": 0,
+      "totalDependencies": 3,
+      "totalDependents": 0
+    },
+    {
+      "id": "c8774a7a-1f8e-41b6-a41a-c6b892912247",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 2,
+      "totalDirectDependencies": 2,
+      "totalDirectDependents": 0,
+      "totalDependencies": 2,
+      "totalDependents": 0
+    },
+    {
+      "id": "cc39615c-6fd8-49cc-9625-92cb3825b134",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "d1a29b8d-e50e-44f3-af15-4a4a6b483bb6",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "da7cbbf4-e761-4715-bf92-b4871a24aea3",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 2,
+      "totalDependencies": 0,
+      "totalDependents": 2
+    },
+    {
+      "id": "dce86bde-cf72-4c6c-8d59-65293247c7d6",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 2,
+      "totalDirectDependencies": 3,
+      "totalDirectDependents": 0,
+      "totalDependencies": 3,
+      "totalDependents": 0
+    },
+    {
+      "id": "df0abf9d-0187-43d8-90d2-4f2cdb37b290",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 2,
+      "totalDirectDependencies": 4,
+      "totalDirectDependents": 0,
+      "totalDependencies": 4,
+      "totalDependents": 0
+    },
+    {
+      "id": "df0f7893-5f95-426f-bbca-78f0d40cfa4d",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "e02b2761-84c6-427d-afc1-2674c74f2a36",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 2,
+      "totalDependencies": 0,
+      "totalDependents": 2
+    },
+    {
+      "id": "e0a34c73-9dde-41a5-876d-16362f8b6732",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "f132badc-4ced-498e-8437-9d83707bc591",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 0,
+      "totalDependencies": 0,
+      "totalDependents": 0
+    },
+    {
+      "id": "f678e57a-d3cb-4f21-8f2b-de9cea910a29",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": false,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 1,
+      "totalDependencies": 0,
+      "totalDependents": 1
+    },
+    {
+      "id": "fac36da8-8abc-4177-9774-5e5467a40902",
+      "partitionNumber": 1,
+      "partitionType": "regular",
+      "isWaveSeed": true,
+      "rank": 1,
+      "totalDirectDependencies": 0,
+      "totalDirectDependents": 4,
+      "totalDependencies": 0,
+      "totalDependents": 4
+    }
+  ],
+  "partitions": [
+    {
+      "partitionNumber": 1,
+      "size": 37,
+      "deploymentOrder": [
+        "09c307f8-bae0-491f-a514-cbbdd04c93e7",
+        "12dd7c67-5dc2-471b-beaa-eddd90b7b621",
+        "15dea79b-f0d7-432f-b863-d082cb2b27e4",
+        "1a1ddce3-f1bf-4d88-99ae-20b810ee0685",
+        "1d3b0752-680e-410f-bacd-06d73d2ca347",
+        "1ef9a9a3-02a4-427b-a889-6b37c19f5ba2",
+        "2d215e5b-ea63-47fd-a07f-1943c4b8a164",
+        "4ab2fc4b-5c9f-417a-9c63-e82d8cb48879",
+        "6b3d0e4f-60d7-489e-bc99-f082a7641ce9",
+        "781140cd-a22c-4133-8aee-120e31d088d9",
+        "85b2b0ee-7f4b-47b2-977f-535e5592577d",
+        "898bc9a7-84ee-42bf-a010-9456da9d3cfc",
+        "907a48f1-9860-4a38-abf0-95fac26a5578",
+        "933cc0fb-51e6-43aa-8d7a-6b747dec2c05",
+        "93e136d2-6c61-4a6c-9467-eb5fdbf53444",
+        "9a303e7c-1e97-43d8-a302-9a95d329f371",
+        "9f45623b-622e-444e-bf5c-4dfe942649c3",
+        "ac4526be-710a-49f1-8dc7-e093c2e7e775",
+        "bd2b0293-a87a-4b83-952a-5bac649736c9",
+        "cc39615c-6fd8-49cc-9625-92cb3825b134",
+        "d1a29b8d-e50e-44f3-af15-4a4a6b483bb6",
+        "da7cbbf4-e761-4715-bf92-b4871a24aea3",
+        "df0f7893-5f95-426f-bbca-78f0d40cfa4d",
+        "e02b2761-84c6-427d-afc1-2674c74f2a36",
+        "e0a34c73-9dde-41a5-876d-16362f8b6732",
+        "f132badc-4ced-498e-8437-9d83707bc591",
+        "f678e57a-d3cb-4f21-8f2b-de9cea910a29",
+        "fac36da8-8abc-4177-9774-5e5467a40902",
+        "156b6732-be9d-45c5-8c28-e90ebb0b5836",
+        "23c7fd51-5295-435b-83c1-a5a7118caf01",
+        "3ab4d71c-c865-4764-af58-d31edebebca4",
+        "555a35a1-3279-45b7-8b2b-fa93af187a2e",
+        "8a6c0c1b-41ff-4f3f-91b3-0307a49ae6f4",
+        "c54b2e42-5ccc-4afa-a4e5-28573c22f667",
+        "c8774a7a-1f8e-41b6-a41a-c6b892912247",
+        "dce86bde-cf72-4c6c-8d59-65293247c7d6",
+        "df0abf9d-0187-43d8-90d2-4f2cdb37b290"
+      ]
+    }
+  ],
+  "missingCodeUnits": {
+    "totalCount": 8,
+    "totalReferences": 8,
+    "relationTypes": {
+      "ALTER": 2,
+      "DELETE": 2,
+      "DROP": 6,
+      "INSERT": 2,
+      "SELECT - FROM": 6
+    },
+    "codeUnits": [
+      {
+        "id": "09c307f8-bae0-491f-a514-cbbdd04c93e7",
+        "canonicalName": "\u0022mv_tbl__mv_daily_revenue_summary__0_tmp\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "DROP": 1
+        }
+      },
+      {
+        "id": "898bc9a7-84ee-42bf-a010-9456da9d3cfc",
+        "canonicalName": "\u0022mv_tbl__mv_advertiser_spend__0_tmp\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "DROP": 1
+        }
+      },
+      {
+        "id": "907a48f1-9860-4a38-abf0-95fac26a5578",
+        "canonicalName": "\u0022operations\u0022.\u0022mv_tbl__mv_advertiser_spend__0_recomputed\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "ALTER": 1,
+          "SELECT - FROM": 1
+        }
+      },
+      {
+        "id": "93e136d2-6c61-4a6c-9467-eb5fdbf53444",
+        "canonicalName": "\u0022analytics\u0022.\u0022mv_tbl__mv_daily_revenue_summary__0\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "DELETE": 1,
+          "DROP": 1,
+          "INSERT": 1,
+          "SELECT - FROM": 1
+        }
+      },
+      {
+        "id": "bd2b0293-a87a-4b83-952a-5bac649736c9",
+        "canonicalName": "\u0022mv_tbl__mv_advertiser_spend__0__insert_tmp\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "DROP": 1,
+          "SELECT - FROM": 1
+        }
+      },
+      {
+        "id": "cc39615c-6fd8-49cc-9625-92cb3825b134",
+        "canonicalName": "\u0022operations\u0022.\u0022mv_tbl__mv_advertiser_spend__0\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "DELETE": 1,
+          "DROP": 1,
+          "INSERT": 1,
+          "SELECT - FROM": 1
+        }
+      },
+      {
+        "id": "df0f7893-5f95-426f-bbca-78f0d40cfa4d",
+        "canonicalName": "\u0022mv_tbl__mv_daily_revenue_summary__0__insert_tmp\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "DROP": 1,
+          "SELECT - FROM": 1
+        }
+      },
+      {
+        "id": "f678e57a-d3cb-4f21-8f2b-de9cea910a29",
+        "canonicalName": "\u0022analytics\u0022.\u0022mv_tbl__mv_daily_revenue_summary__0_recomputed\u0022",
+        "requiredByCount": 1,
+        "relationTypes": {
+          "ALTER": 1,
+          "SELECT - FROM": 1
+        }
+      }
+    ]
+  }
+}

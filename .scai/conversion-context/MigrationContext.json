@@ -1,0 +1,1215 @@
+{
+  "SYMBOLS": [
+    {
+      "NAME": "videos",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "music_catalog",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "video_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "artist_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "title",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "release_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "duration_seconds",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "genre",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "is_explicit",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BOOLEAN"
+        },
+        {
+          "NAME": "video_quality",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "total_views",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "created_at",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "NAME": "artists",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "music_catalog",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "artist_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "artist_name",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "genre",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "country",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "label",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "debut_year",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "monthly_listeners",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "created_at",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "NAME": "channels",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "music_catalog",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "channel_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "artist_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "channel_name",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "platform",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "subscriber_count",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "verified",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BOOLEAN"
+        },
+        {
+          "NAME": "created_at",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "NAME": "v_video_catalog",
+      "SYMBOLTYPE": "VIEW",
+      "SCHEMANAME": "music_catalog",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "video_id",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "INTEGER"
+            },
+            {
+              "NAME": "title",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "artist_name",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "genre",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "release_date",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "DATE"
+            },
+            {
+              "NAME": "duration_seconds",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "INTEGER"
+            },
+            {
+              "NAME": "total_views",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "BIGINT"
+            },
+            {
+              "NAME": "is_explicit",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "BOOLEAN"
+            },
+            {
+              "NAME": "video_quality",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "channel_name",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "subscriber_count",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "BIGINT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NAME": "ad_campaigns",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "campaign_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "campaign_name",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "advertiser",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "start_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "end_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "budget_usd",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "NUMERIC"
+        },
+        {
+          "NAME": "status",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "target_demographic",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "created_at",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "NAME": "content_moderation",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "moderation_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "video_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "flag_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        },
+        {
+          "NAME": "flag_reason",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "severity",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "reviewer",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "resolution",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "resolved_at",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "NAME": "ad_placements",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "placement_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "campaign_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "video_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "placement_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "impressions",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "clicks",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "cost_usd",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "NUMERIC"
+        },
+        {
+          "NAME": "ctr",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "NUMERIC"
+        }
+      ]
+    },
+    {
+      "NAME": "ad_campaigns_history",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "campaign_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "campaign_name",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "budget_usd",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "NUMERIC"
+        },
+        {
+          "NAME": "status",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "target_demographic",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "effective_start_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "effective_end_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "is_current",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BOOLEAN"
+        },
+        {
+          "NAME": "created_at",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        },
+        {
+          "NAME": "updated_at",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "NAME": "v_campaign_performance",
+      "SYMBOLTYPE": "VIEW",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "campaign_name",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "advertiser",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "status",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "budget_usd",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "NUMERIC"
+            },
+            {
+              "NAME": "total_impressions",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            },
+            {
+              "NAME": "total_clicks",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            },
+            {
+              "NAME": "total_spent",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "NUMERIC"
+            },
+            {
+              "NAME": "budget_utilization_pct",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "avg_ctr_pct",
+              "SYMBOLTYPE": "COLUMN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NAME": "sp_close_campaign",
+      "SYMBOLTYPE": "PROCEDURE",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": null,
+          "INNERSYMBOLS": [
+            {
+              "NAME": "ad_campaigns",
+              "SYMBOLTYPE": "TABLE",
+              "SCHEMANAME": "operations",
+              "DATABASENAME": "vevodb",
+              "INNERSYMBOLS": [
+                {
+                  "NAME": "campaign_id",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "INTEGER"
+                },
+                {
+                  "NAME": "campaign_name",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "advertiser",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "start_date",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "DATE"
+                },
+                {
+                  "NAME": "end_date",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "DATE"
+                },
+                {
+                  "NAME": "budget_usd",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "NUMERIC"
+                },
+                {
+                  "NAME": "status",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "target_demographic",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "created_at",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "TIMESTAMP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "NAME": "p_campaign_id",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "INTEGER"
+        }
+      ]
+    },
+    {
+      "NAME": "sp_generate_campaign_report",
+      "SYMBOLTYPE": "PROCEDURE",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "ad_campaigns",
+              "SYMBOLTYPE": "TABLE",
+              "SCHEMANAME": "operations",
+              "DATABASENAME": "vevodb",
+              "INNERSYMBOLS": [
+                {
+                  "NAME": "campaign_id",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "INTEGER"
+                },
+                {
+                  "NAME": "campaign_name",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "advertiser",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "start_date",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "DATE"
+                },
+                {
+                  "NAME": "end_date",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "DATE"
+                },
+                {
+                  "NAME": "budget_usd",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "NUMERIC"
+                },
+                {
+                  "NAME": "status",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "target_demographic",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "created_at",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "TIMESTAMP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": []
+        },
+        {
+          "NAME": "p_advertiser",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "CHARACTER VARYING"
+        },
+        {
+          "NAME": "v_total_spend",
+          "SYMBOLTYPE": "LOCAL VARIABLE",
+          "TYPE": "DECIMAL"
+        },
+        {
+          "NAME": "v_total_impressions",
+          "SYMBOLTYPE": "LOCAL VARIABLE",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "v_campaign_count",
+          "SYMBOLTYPE": "LOCAL VARIABLE",
+          "TYPE": "INT"
+        }
+      ]
+    },
+    {
+      "NAME": "mv_sp__mv_advertiser_spend__4_2_cascade",
+      "SYMBOLTYPE": "PROCEDURE",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "advertiser",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_impressions",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_clicks",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_spend",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "overall_ctr",
+              "SYMBOLTYPE": "COLUMN"
+            }
+          ]
+        },
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": null,
+          "INNERSYMBOLS": []
+        },
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": null,
+          "INNERSYMBOLS": [
+            {
+              "NAME": null,
+              "SYMBOLTYPE": "QUERY",
+              "SELECTALL": true,
+              "TABLESALLSELECTED": [],
+              "INNERSYMBOLS": []
+            }
+          ]
+        },
+        {
+          "NAME": "start_xid",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "end_xid",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "recompute_mv",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BOOLEAN"
+        },
+        {
+          "NAME": "finished_xid_list",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "CHARACTER VARYING"
+        },
+        {
+          "NAME": "cascade_xid",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "last_cascade_xids",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "CHARACTER VARYING"
+        }
+      ]
+    },
+    {
+      "NAME": "mv_advertiser_spend",
+      "SYMBOLTYPE": "VIEW",
+      "SCHEMANAME": "operations",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "advertiser",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "total_impressions",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            },
+            {
+              "NAME": "total_clicks",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            },
+            {
+              "NAME": "total_spend",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "NUMERIC"
+            },
+            {
+              "NAME": "overall_ctr",
+              "SYMBOLTYPE": "COLUMN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NAME": "daily_streams",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "analytics",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "stream_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "video_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "stream_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "country",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "device_type",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "VARCHAR"
+        },
+        {
+          "NAME": "stream_count",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "unique_viewers",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "avg_watch_time_seconds",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "revenue_usd",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "NUMERIC"
+        }
+      ]
+    },
+    {
+      "NAME": "user_engagement",
+      "SYMBOLTYPE": "TABLE",
+      "SCHEMANAME": "analytics",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "engagement_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "video_id",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "INTEGER"
+        },
+        {
+          "NAME": "engagement_date",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "DATE"
+        },
+        {
+          "NAME": "likes",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "dislikes",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "comments",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "shares",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "saves",
+          "SYMBOLTYPE": "COLUMN",
+          "TYPE": "BIGINT"
+        }
+      ]
+    },
+    {
+      "NAME": "sp_refresh_daily_summary",
+      "SYMBOLTYPE": "PROCEDURE",
+      "SCHEMANAME": "analytics",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": "target_date",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "DATE"
+        }
+      ]
+    },
+    {
+      "NAME": "mv_sp__mv_daily_revenue_summary__4_2_cascade",
+      "SYMBOLTYPE": "PROCEDURE",
+      "SCHEMANAME": "analytics",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "stream_date",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "country",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_streams",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_unique_viewers",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_revenue",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "avg_watch_time",
+              "SYMBOLTYPE": "COLUMN"
+            }
+          ]
+        },
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": null,
+          "INNERSYMBOLS": []
+        },
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": null,
+          "INNERSYMBOLS": [
+            {
+              "NAME": null,
+              "SYMBOLTYPE": "QUERY",
+              "SELECTALL": true,
+              "TABLESALLSELECTED": [],
+              "INNERSYMBOLS": []
+            }
+          ]
+        },
+        {
+          "NAME": "start_xid",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "end_xid",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "recompute_mv",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BOOLEAN"
+        },
+        {
+          "NAME": "finished_xid_list",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "CHARACTER VARYING"
+        },
+        {
+          "NAME": "cascade_xid",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "BIGINT"
+        },
+        {
+          "NAME": "last_cascade_xids",
+          "SYMBOLTYPE": "PARAMETER",
+          "TYPE": "CHARACTER VARYING"
+        }
+      ]
+    },
+    {
+      "NAME": "v_top_artists_by_streams",
+      "SYMBOLTYPE": "VIEW",
+      "SCHEMANAME": "analytics",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "artist_name",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "genre",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "country",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "total_streams",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            },
+            {
+              "NAME": "total_revenue",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "NUMERIC"
+            },
+            {
+              "NAME": "active_days",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NAME": "mv_daily_revenue_summary",
+      "SYMBOLTYPE": "VIEW",
+      "SCHEMANAME": "analytics",
+      "DATABASENAME": "vevodb",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "daily_streams",
+              "SYMBOLTYPE": "TABLE",
+              "SCHEMANAME": "analytics",
+              "DATABASENAME": "vevodb",
+              "INNERSYMBOLS": [
+                {
+                  "NAME": "stream_id",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "BIGINT"
+                },
+                {
+                  "NAME": "video_id",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "INTEGER"
+                },
+                {
+                  "NAME": "stream_date",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "DATE"
+                },
+                {
+                  "NAME": "country",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "device_type",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "VARCHAR"
+                },
+                {
+                  "NAME": "stream_count",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "BIGINT"
+                },
+                {
+                  "NAME": "unique_viewers",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "BIGINT"
+                },
+                {
+                  "NAME": "avg_watch_time_seconds",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "INTEGER"
+                },
+                {
+                  "NAME": "revenue_usd",
+                  "SYMBOLTYPE": "COLUMN",
+                  "TYPE": "NUMERIC"
+                }
+              ]
+            },
+            {
+              "NAME": "stream_date",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "DATE"
+            },
+            {
+              "NAME": "country",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "VARCHAR"
+            },
+            {
+              "NAME": "total_streams",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            },
+            {
+              "NAME": "total_unique_viewers",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "ExactNumeric"
+            },
+            {
+              "NAME": "total_revenue",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "NUMERIC"
+            },
+            {
+              "NAME": "avg_watch_time",
+              "SYMBOLTYPE": "COLUMN",
+              "TYPE": "AproxNumeric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NAME": "\u0022mv_advertiser_spend\u0022",
+      "SYMBOLTYPE": "VIEW",
+      "SCHEMANAME": "\u0022operations\u0022",
+      "DATABASENAME": "",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "advertiser",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_impressions",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_clicks",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_spend",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "overall_ctr",
+              "SYMBOLTYPE": "COLUMN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NAME": "\u0022mv_daily_revenue_summary\u0022",
+      "SYMBOLTYPE": "VIEW",
+      "SCHEMANAME": "\u0022analytics\u0022",
+      "DATABASENAME": "",
+      "INNERSYMBOLS": [
+        {
+          "NAME": null,
+          "SYMBOLTYPE": "QUERY",
+          "SELECTALL": false,
+          "TABLESALLSELECTED": [],
+          "INNERSYMBOLS": [
+            {
+              "NAME": "stream_date",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "country",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_streams",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_unique_viewers",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "total_revenue",
+              "SYMBOLTYPE": "COLUMN"
+            },
+            {
+              "NAME": "avg_watch_time",
+              "SYMBOLTYPE": "COLUMN"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

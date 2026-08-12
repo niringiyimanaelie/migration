@@ -1,0 +1,159 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "156b6732-be9d-45c5-8c28-e90ebb0b5836",
+      "3ab4d71c-c865-4764-af58-d31edebebca4",
+      "555a35a1-3279-45b7-8b2b-fa93af187a2e",
+      "c8774a7a-1f8e-41b6-a41a-c6b892912247"
+    ]
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/table/ad_campaigns"
+    },
+    "converted": {
+      "checksum": "00e43c37e0f66152f3c61248468e775c",
+      "path": "snowflake/vevodb/operations/table/ad_campaigns.sql"
+    },
+    "source": {
+      "checksum": "f715173e38c51c851f8c24ff73530200",
+      "path": "source/vevodb/operations/table/ad_campaigns.sql"
+    }
+  },
+  "id": "fac36da8-8abc-4177-9774-5e5467a40902",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "campaign_id",
+        "nullable": true,
+        "targetName": "campaign_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "campaign_name",
+        "nullable": true,
+        "targetName": "campaign_name",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "advertiser",
+        "nullable": true,
+        "targetName": "advertiser",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "start_date",
+        "nullable": true,
+        "targetName": "start_date",
+        "targetType": "DATE",
+        "type": "DATE"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "end_date",
+        "nullable": true,
+        "targetName": "end_date",
+        "targetType": "DATE",
+        "type": "DATE"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "budget_usd",
+        "nullable": true,
+        "targetName": "budget_usd",
+        "targetType": "NUMERIC",
+        "type": "NUMERIC"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "status",
+        "nullable": true,
+        "targetName": "status",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "target_demographic",
+        "nullable": true,
+        "targetName": "target_demographic",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "created_at",
+        "nullable": true,
+        "targetName": "created_at",
+        "targetType": "",
+        "type": "TIMESTAMP"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.ad_campaigns",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "ad_campaigns",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.ad_campaigns",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "ad_campaigns",
+    "objectType": "table",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

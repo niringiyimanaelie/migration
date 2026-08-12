@@ -1,0 +1,32 @@
+{
+  "object": "vevodb.operations.v_campaign_performance",
+  "object_type": "VIEW",
+  "branches": [],
+  "predicates": [
+    {
+      "table": "vevodb.operations.ad_campaigns",
+      "column": "budget_usd",
+      "operator": "=",
+      "values": [
+        "0::numeric(12,2)"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "left_table": "vevodb.operations.ad_campaigns",
+      "left_columns": [
+        "campaign_id"
+      ],
+      "right_table": "vevodb.operations.ad_placements",
+      "right_columns": [
+        "campaign_id"
+      ],
+      "join_type": "left",
+      "is_anti": false
+    }
+  ],
+  "assignments": [],
+  "semi_anti": [],
+  "schema_version": 1
+}

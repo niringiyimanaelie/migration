@@ -1,0 +1,35 @@
+{
+  "object": "vevodb.music_catalog.v_video_catalog",
+  "object_type": "VIEW",
+  "branches": [],
+  "predicates": [],
+  "edges": [
+    {
+      "left_table": "vevodb.music_catalog.artists",
+      "left_columns": [
+        "artist_id"
+      ],
+      "right_table": "vevodb.music_catalog.channels",
+      "right_columns": [
+        "artist_id"
+      ],
+      "join_type": "left",
+      "is_anti": false
+    },
+    {
+      "left_table": "vevodb.music_catalog.artists",
+      "left_columns": [
+        "artist_id"
+      ],
+      "right_table": "vevodb.music_catalog.videos",
+      "right_columns": [
+        "artist_id"
+      ],
+      "join_type": "inner",
+      "is_anti": false
+    }
+  ],
+  "assignments": [],
+  "semi_anti": [],
+  "schema_version": 1
+}

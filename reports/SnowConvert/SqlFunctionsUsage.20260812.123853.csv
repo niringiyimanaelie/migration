@@ -1,0 +1,10 @@
+Function,Count,Category,MigrationStatus
+COALESCE,6,Built_In,Transformation
+IVM_AVG_DIV,2,Built_In,Pending
+AVG,2,Built_In,Transformation
+SUM,16,Built_In,Transformation
+IDENTITY,8,Built_In,Pending
+GETDATE,6,Built_In,Transformation
+ROUND,5,Built_In,Transformation
+NULLIF,1,Built_In,Transformation
+COUNT,2,Built_In,Transformation

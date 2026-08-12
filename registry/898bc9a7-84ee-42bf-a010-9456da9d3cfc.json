@@ -1,0 +1,31 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "exclusion": [],
+      "status": "failed"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "df0abf9d-0187-43d8-90d2-4f2cdb37b290"
+    ]
+  },
+  "extensions": {},
+  "id": "898bc9a7-84ee-42bf-a010-9456da9d3cfc",
+  "inScope": true,
+  "isMissing": true,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "source": {
+    "canonicalName": "\"mv_tbl__mv_advertiser_spend__0_tmp\"",
+    "name": "\"mv_tbl__mv_advertiser_spend__0_tmp\"",
+    "objectType": "other"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

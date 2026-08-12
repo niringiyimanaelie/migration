@@ -1,0 +1,98 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [
+      {
+        "id": "fac36da8-8abc-4177-9774-5e5467a40902",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN",
+          "SELECT - FROM"
+        ]
+      },
+      {
+        "id": "9f45623b-622e-444e-bf5c-4dfe942649c3",
+        "isMissing": false,
+        "relationTypes": [
+          "SELECT - JOIN"
+        ]
+      }
+    ],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": []
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/operations/procedure/sp_generate_campaign_report"
+    },
+    "converted": {
+      "checksum": "a47eb664f4403b9866b59ed4fdfc21bd",
+      "path": "snowflake/vevodb/operations/procedure/sp_generate_campaign_report.sql"
+    },
+    "source": {
+      "checksum": "1a9a3c25dfde83e1f3c8ab067c465e7b",
+      "path": "source/vevodb/operations/procedure/sp_generate_campaign_report.sql"
+    }
+  },
+  "id": "c8774a7a-1f8e-41b6-a41a-c6b892912247",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 1,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [],
+    "parameters": {
+      "arguments": [
+        {
+          "direction": "in",
+          "isCursor": false,
+          "name": "p_advertiser",
+          "required": true,
+          "targetName": "p_advertiser",
+          "targetType": "VARCHAR",
+          "type": "CHARACTER VARYING"
+        }
+      ],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING)",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "sp_generate_campaign_report",
+    "objectType": "procedure",
+    "platform": "redshift",
+    "schema": "operations"
+  },
+  "target": {
+    "canonicalName": "vevodb.operations.sp_generate_campaign_report(VARCHAR)",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "sp_generate_campaign_report",
+    "objectType": "procedure",
+    "schema": "operations"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

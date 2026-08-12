@@ -1,0 +1,157 @@
+{
+  "codeStatus": {
+    "assessment": {
+      "containsCommit": false,
+      "exclusion": [],
+      "status": "inProgress"
+    },
+    "conversion": {
+      "converterVersion": "2.40.0-Pr.125",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    },
+    "registration": {
+      "sourceId": "",
+      "status": "completed",
+      "updatedAt": "2026-08-12T17:38:58Z"
+    }
+  },
+  "dependencies": {
+    "dependsOn": [],
+    "hasTransitiveMissingDependencies": false,
+    "requiredBy": [
+      "8a6c0c1b-41ff-4f3f-91b3-0307a49ae6f4",
+      "c54b2e42-5ccc-4afa-a4e5-28573c22f667"
+    ]
+  },
+  "extensions": {},
+  "files": {
+    "artifacts": {
+      "path": "artifacts/vevodb/analytics/table/daily_streams"
+    },
+    "converted": {
+      "checksum": "4df18b4d3d0d535d5bc54211fcb1d1cc",
+      "path": "snowflake/vevodb/analytics/table/daily_streams.sql"
+    },
+    "source": {
+      "checksum": "1bde1b1ff98ba2d039823023322c3fe9",
+      "path": "source/vevodb/analytics/table/daily_streams.sql"
+    }
+  },
+  "id": "e02b2761-84c6-427d-afc1-2674c74f2a36",
+  "inScope": true,
+  "isMissing": false,
+  "kind": "databaseObject",
+  "planning": {
+    "topologicalRank": 0,
+    "wave": 1
+  },
+  "schemaVersion": 1,
+  "signature": {
+    "columns": [
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": true,
+        "name": "stream_id",
+        "nullable": true,
+        "targetName": "stream_id",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "video_id",
+        "nullable": true,
+        "targetName": "video_id",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "stream_date",
+        "nullable": true,
+        "targetName": "stream_date",
+        "targetType": "DATE",
+        "type": "DATE"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "country",
+        "nullable": true,
+        "targetName": "country",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "device_type",
+        "nullable": true,
+        "targetName": "device_type",
+        "targetType": "VARCHAR",
+        "type": "VARCHAR"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "stream_count",
+        "nullable": true,
+        "targetName": "stream_count",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "unique_viewers",
+        "nullable": true,
+        "targetName": "unique_viewers",
+        "targetType": "BIGINT",
+        "type": "BIGINT"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "avg_watch_time_seconds",
+        "nullable": true,
+        "targetName": "avg_watch_time_seconds",
+        "targetType": "INTEGER",
+        "type": "INTEGER"
+      },
+      {
+        "isCaseSpecific": false,
+        "isPrimaryKey": false,
+        "name": "revenue_usd",
+        "nullable": true,
+        "targetName": "revenue_usd",
+        "targetType": "NUMERIC",
+        "type": "NUMERIC"
+      }
+    ],
+    "parameters": {
+      "arguments": [],
+      "returns": []
+    }
+  },
+  "source": {
+    "canonicalName": "vevodb.analytics.daily_streams",
+    "database": "vevodb",
+    "format": "sql",
+    "name": "daily_streams",
+    "objectType": "table",
+    "platform": "redshift",
+    "schema": "analytics"
+  },
+  "target": {
+    "canonicalName": "vevodb.analytics.daily_streams",
+    "database": "vevodb",
+    "format": "snowflakeSQL",
+    "name": "daily_streams",
+    "objectType": "table",
+    "schema": "analytics"
+  },
+  "updatedAt": "2026-08-12T17:52:15Z"
+}

@@ -1,0 +1,25 @@
+{
+  "object": "vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)",
+  "object_type": "PROCEDURE",
+  "branches": [
+    {
+      "branch_id": 0,
+      "construct_kind": "IF",
+      "line": 3,
+      "predicate_text": "Recompute_MV",
+      "columns": []
+    },
+    {
+      "branch_id": 1,
+      "construct_kind": "ELSE",
+      "line": 3,
+      "predicate_text": "TRUE",
+      "columns": []
+    }
+  ],
+  "predicates": [],
+  "edges": [],
+  "assignments": [],
+  "semi_anti": [],
+  "schema_version": 1
+}
