@@ -4,5 +4,6 @@ dashboard_port: 7878
 entry_mode: fresh
 git_main_branch: main
 project_dir_confirmed: 'true'
+snowflake_database: VEVODB
 wave: '1'
-committed_setup_tasks: registerCode,convertCode,runAssessment
+committed_setup_tasks: registerCode,convertCode,runAssessment,configureSnowflakeTarget
