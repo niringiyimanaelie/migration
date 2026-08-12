@@ -5,4 +5,4 @@ entry_mode: fresh
 git_main_branch: main
 project_dir_confirmed: 'true'
 wave: '1'
-committed_setup_tasks: registerCode
+committed_setup_tasks: registerCode,convertCode
