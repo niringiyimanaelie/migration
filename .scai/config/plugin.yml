@@ -2,5 +2,7 @@ code_source: extract
 cortex_safe_tools_acknowledged: 'true'
 dashboard_port: 7878
 entry_mode: fresh
+git_main_branch: main
 project_dir_confirmed: 'true'
 wave: '1'
+committed_setup_tasks: registerCode
