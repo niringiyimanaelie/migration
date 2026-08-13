@@ -1,0 +1,39 @@
+tables:
+- source:
+    tableName: daily_streams
+    schemaName: analytics
+    databaseName: vevodb
+  target:
+    tableName: DAILY_STREAMS
+    schemaName: ANALYTICS
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - stream_id
+- source:
+    tableName: ad_placements
+    schemaName: operations
+    databaseName: vevodb
+  target:
+    tableName: AD_PLACEMENTS
+    schemaName: OPERATIONS
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - placement_id
+- source:
+    tableName: ad_campaigns
+    schemaName: operations
+    databaseName: vevodb
+  target:
+    tableName: AD_CAMPAIGNS
+    schemaName: OPERATIONS
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - campaign_id
+defaultTableConfiguration:
+  target:
+    databaseName: VEVODB
+  synchronization:
+    strategy: none
+  extraction:
+    strategy: unload
+    externalStage: '@VEVODB.PUBLIC.MIGRATION_STAGE'

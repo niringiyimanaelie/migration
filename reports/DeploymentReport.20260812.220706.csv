@@ -1,0 +1,5 @@
+OBJECT_NAME,OBJECT_TYPE,STATUS,ERROR_MESSAGE,DATABASE,SCHEMA,FQN,SNOWSIGHT_URL
+vevodb.operations.mv_advertiser_spend,MaterializedView,Failed,"Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement ""CREATE DYNAMIC TABLE operation..."" (at line 2, position 0).
+Warehouse 'UPDATE_DUMMY_WAREHOUSE' does not exist. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4
+stackstrace: 
+SYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c6594f-0202-b953-0011-73e30193506a",VEVODB,PUBLIC,VEVODB.PUBLIC.vevodb.operations.mv_advertiser_spend,https://app.snowflake.com/SFPSCOGS/ENIRINGIYIMANA/#/data/databases/VEVODB/schemas/PUBLIC

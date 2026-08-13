@@ -1,0 +1,18 @@
+[8/12/2026 10:06:43 PM] Info: ========================================
+[8/12/2026 10:06:43 PM] Info: Starting Code Deployment
+[8/12/2026 10:06:43 PM] Info: ========================================
+[8/12/2026 10:06:43 PM] Info: Target Database: VEVODB
+[8/12/2026 10:06:43 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:06:43 PM] Info: Retry Attempts: 1
+[8/12/2026 10:06:43 PM] Info: Where Filter: (source.canonicalName = 'vevodb.operations.v_campaign_performance' OR (source.schema = 'vevodb.operations' AND source.name = 'v_campaign_performance'))
+[8/12/2026 10:06:43 PM] Info: Continue On Error: True
+[8/12/2026 10:06:43 PM] Info: ========================================
+[8/12/2026 10:06:43 PM] Info: Deploying View vevodb.operations.v_campaign_performance -> Deployed
+[8/12/2026 10:06:45 PM] Info: ========================================
+[8/12/2026 10:06:45 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 10:06:45 PM] Info: Total Objects: 1
+[8/12/2026 10:06:45 PM] Info: Successful: 1
+[8/12/2026 10:06:45 PM] Info: Failed: 0
+[8/12/2026 10:06:45 PM] Info: Average Time per Object: 1.21s
+[8/12/2026 10:06:45 PM] Info: Execution Time: 00:00:01
+[8/12/2026 10:06:45 PM] Info: ========================================

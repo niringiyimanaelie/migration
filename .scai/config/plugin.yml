@@ -2,6 +2,10 @@ code_source: extract
 committed_setup_tasks: registerCode,convertCode,runAssessment,configureSnowflakeTarget,configureTesting
 cortex_safe_tools_acknowledged: 'true'
 dashboard_port: 7878
+data_migration_extraction_strategy: unload
+data_migration_sync_strategy: none
+data_migration_target_table_type: native
+data_migration_type: full
 entry_mode: fresh
 git_main_branch: main
 project_dir_confirmed: 'true'

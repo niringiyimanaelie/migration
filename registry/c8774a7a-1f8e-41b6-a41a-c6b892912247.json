@@ -1,4 +1,12 @@
 {
+  "cloudStatus": {
+    "deployment": {
+      "deployedTo": "VEVODB",
+      "details": {},
+      "status": "completed",
+      "updatedAt": "2026-08-12T22:13:40Z"
+    }
+  },
   "codeStatus": {
     "assessment": {
       "containsCommit": false,
@@ -43,7 +51,7 @@
       "path": "artifacts/vevodb/operations/procedure/sp_generate_campaign_report"
     },
     "converted": {
-      "checksum": "a47eb664f4403b9866b59ed4fdfc21bd",
+      "checksum": "1cfa1343d6e626ebc19f2a0da23bc3be",
       "path": "snowflake/vevodb/operations/procedure/sp_generate_campaign_report.sql"
     },
     "source": {
@@ -94,5 +102,5 @@
     "objectType": "procedure",
     "schema": "operations"
   },
-  "updatedAt": "2026-08-12T17:52:15Z"
+  "updatedAt": "2026-08-12T22:29:37Z"
 }

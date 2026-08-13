@@ -1,4 +1,14 @@
 {
+  "cloudStatus": {
+    "deployment": {
+      "deployedTo": "VEVODB",
+      "details": {
+        "error": "Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement \"CREATE TABLE IF NOT EXISTS ana...\" (at line 2, position 0).\nSQL compilation error:\nSchema 'VEVODB.ANALYTICS' does not exist or not authorized. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4\nstackstrace: \nSYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65897-0202-b777-0011-73e30191d036"
+      },
+      "status": "completed",
+      "updatedAt": "2026-08-12T19:06:05Z"
+    }
+  },
   "codeStatus": {
     "assessment": {
       "containsCommit": false,
@@ -24,7 +34,12 @@
       "c54b2e42-5ccc-4afa-a4e5-28573c22f667"
     ]
   },
-  "extensions": {},
+  "extensions": {
+    "dataMigration": {
+      "status": "inProgress",
+      "updatedAt": "2026-08-12T21:10:26.050829+00:00"
+    }
+  },
   "files": {
     "artifacts": {
       "path": "artifacts/vevodb/analytics/table/daily_streams"
@@ -153,5 +168,5 @@
     "objectType": "table",
     "schema": "analytics"
   },
-  "updatedAt": "2026-08-12T17:52:15Z"
+  "updatedAt": "2026-08-12T21:10:26Z"
 }

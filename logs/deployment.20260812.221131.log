@@ -1,0 +1,18 @@
+[8/12/2026 10:11:28 PM] Info: ========================================
+[8/12/2026 10:11:28 PM] Info: Starting Code Deployment
+[8/12/2026 10:11:28 PM] Info: ========================================
+[8/12/2026 10:11:28 PM] Info: Target Database: VEVODB
+[8/12/2026 10:11:28 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:11:28 PM] Info: Retry Attempts: 1
+[8/12/2026 10:11:28 PM] Info: Where Filter: (source.canonicalName = 'vevodb.analytics.mv_daily_revenue_summary' OR (source.schema = 'vevodb.analytics' AND source.name = 'mv_daily_revenue_summary'))
+[8/12/2026 10:11:28 PM] Info: Continue On Error: True
+[8/12/2026 10:11:28 PM] Info: ========================================
+[8/12/2026 10:11:28 PM] Info: Deploying MaterializedView vevodb.analytics.mv_daily_revenue_summary -> Deployed
+[8/12/2026 10:11:31 PM] Info: ========================================
+[8/12/2026 10:11:31 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 10:11:31 PM] Info: Total Objects: 1
+[8/12/2026 10:11:31 PM] Info: Successful: 1
+[8/12/2026 10:11:31 PM] Info: Failed: 0
+[8/12/2026 10:11:31 PM] Info: Average Time per Object: 2.90s
+[8/12/2026 10:11:31 PM] Info: Execution Time: 00:00:02
+[8/12/2026 10:11:31 PM] Info: ========================================

@@ -1,0 +1,2 @@
+OBJECT_NAME,OBJECT_TYPE,STATUS,ERROR_MESSAGE,DATABASE,SCHEMA,FQN,SNOWSIGHT_URL
+vevodb.analytics.mv_daily_revenue_summary,MaterializedView,Deployed,,VEVODB,PUBLIC,VEVODB.PUBLIC.vevodb.analytics.mv_daily_revenue_summary,https://app.snowflake.com/SFPSCOGS/ENIRINGIYIMANA/#/data/databases/VEVODB/schemas/PUBLIC

@@ -1,0 +1,18 @@
+[8/12/2026 10:18:06 PM] Info: ========================================
+[8/12/2026 10:18:06 PM] Info: Starting Code Deployment
+[8/12/2026 10:18:06 PM] Info: ========================================
+[8/12/2026 10:18:06 PM] Info: Target Database: VEVODB
+[8/12/2026 10:18:06 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:18:06 PM] Info: Retry Attempts: 1
+[8/12/2026 10:18:06 PM] Info: Where Filter: (source.canonicalName = 'vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)' OR (source.schema = 'vevodb.operations' AND source.name = 'mv_sp__mv_advertiser_spend__4_2_cascade'))
+[8/12/2026 10:18:06 PM] Info: Continue On Error: True
+[8/12/2026 10:18:06 PM] Info: ========================================
+[8/12/2026 10:18:06 PM] Info: Deploying Procedure vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade -> Deployed
+[8/12/2026 10:18:07 PM] Info: ========================================
+[8/12/2026 10:18:07 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 10:18:07 PM] Info: Total Objects: 1
+[8/12/2026 10:18:07 PM] Info: Successful: 1
+[8/12/2026 10:18:07 PM] Info: Failed: 0
+[8/12/2026 10:18:07 PM] Info: Average Time per Object: 0.81s
+[8/12/2026 10:18:07 PM] Info: Execution Time: 00:00:00
+[8/12/2026 10:18:07 PM] Info: ========================================

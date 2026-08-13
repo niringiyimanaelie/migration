@@ -1,0 +1,69 @@
+tables:
+- source:
+    tableName: videos
+    schemaName: music_catalog
+    databaseName: vevodb
+  target:
+    tableName: VIDEOS
+    schemaName: MUSIC_CATALOG
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - video_id
+- source:
+    tableName: artists
+    schemaName: music_catalog
+    databaseName: vevodb
+  target:
+    tableName: ARTISTS
+    schemaName: MUSIC_CATALOG
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - artist_id
+- source:
+    tableName: channels
+    schemaName: music_catalog
+    databaseName: vevodb
+  target:
+    tableName: CHANNELS
+    schemaName: MUSIC_CATALOG
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - channel_id
+- source:
+    tableName: user_engagement
+    schemaName: analytics
+    databaseName: vevodb
+  target:
+    tableName: USER_ENGAGEMENT
+    schemaName: ANALYTICS
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - engagement_id
+- source:
+    tableName: ad_campaigns_history
+    schemaName: operations
+    databaseName: vevodb
+  target:
+    tableName: AD_CAMPAIGNS_HISTORY
+    schemaName: OPERATIONS
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - history_id
+- source:
+    tableName: content_moderation
+    schemaName: operations
+    databaseName: vevodb
+  target:
+    tableName: CONTENT_MODERATION
+    schemaName: OPERATIONS
+    databaseName: VEVODB
+  columnNamesToPartitionBy:
+  - moderation_id
+defaultTableConfiguration:
+  target:
+    databaseName: VEVODB
+  synchronization:
+    strategy: none
+  extraction:
+    strategy: unload
+    externalStage: '@VEVODB.PUBLIC.MIGRATION_STAGE'

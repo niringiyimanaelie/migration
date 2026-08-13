@@ -1,0 +1,2 @@
+TableName,PartitionNumber,PartitionMinValue,PartitionMaxValue,TaskName,TaskStartTime,TaskEndTime,LastErrorMessage,LastWarningMessage
+vevodb.operations.ad_campaigns_history,,,,Apply inferred validation keys: vevodb.operations.ad_campaigns_history,08/13/2026 02:37:20,08/13/2026 02:37:23,KeyInferenceError: Could not infer primary key for vevodb.operations.ad_campaigns_history.,Could not infer partition key for vevodb.operations.ad_campaigns_history.

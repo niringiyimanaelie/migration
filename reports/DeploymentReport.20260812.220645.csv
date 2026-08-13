@@ -1,0 +1,2 @@
+OBJECT_NAME,OBJECT_TYPE,STATUS,ERROR_MESSAGE,DATABASE,SCHEMA,FQN,SNOWSIGHT_URL
+vevodb.operations.v_campaign_performance,View,Deployed,,VEVODB,PUBLIC,VEVODB.PUBLIC.vevodb.operations.v_campaign_performance,https://app.snowflake.com/SFPSCOGS/ENIRINGIYIMANA/#/data/databases/VEVODB/schemas/PUBLIC

@@ -1,0 +1,16 @@
+TableName,HasBeenPreprocessed,TotalPartitions,PartitionsInExtractionPhase,PartitionsInLoadingPhase,LoadedPartitions,FailedPartitions,ExampleErrorMessage
+vevodb.operations.ad_campaigns,False,0,0,0,0,0,"Error processing the task '6'. Failed exporting data from the 'redshift' engine using the 'odbc' data source.
+Please check the database connection and the query.
+
+Exception Type: OperationalError
+Exception Message: ('08001', '[08001] connection to server at ""vevo-workgroup.307946663293.us-east-1.redshift-serverless.amazonaws.com"" (3.226.67.51), port 5439 failed: FATAL:  no pg_hba.conf entry for host ""???"", user ""admin"", database ""vevodb"", SSL off\n (101) (SQLDriverConnect)')"
+vevodb.analytics.daily_streams,False,0,0,0,0,0,"Error processing the task '4'. Failed exporting data from the 'redshift' engine using the 'odbc' data source.
+Please check the database connection and the query.
+
+Exception Type: OperationalError
+Exception Message: ('08001', '[08001] connection to server at ""vevo-workgroup.307946663293.us-east-1.redshift-serverless.amazonaws.com"" (3.226.67.51), port 5439 failed: FATAL:  no pg_hba.conf entry for host ""???"", user ""admin"", database ""vevodb"", SSL off\n (101) (SQLDriverConnect)')"
+vevodb.operations.ad_placements,False,0,0,0,0,0,"Error processing the task '5'. Failed exporting data from the 'redshift' engine using the 'odbc' data source.
+Please check the database connection and the query.
+
+Exception Type: OperationalError
+Exception Message: ('08001', '[08001] connection to server at ""vevo-workgroup.307946663293.us-east-1.redshift-serverless.amazonaws.com"" (3.226.67.51), port 5439 failed: FATAL:  no pg_hba.conf entry for host ""???"", user ""admin"", database ""vevodb"", SSL off\n (101) (SQLDriverConnect)')"

@@ -1,0 +1,18 @@
+[8/12/2026 10:04:04 PM] Info: ========================================
+[8/12/2026 10:04:04 PM] Info: Starting Code Deployment
+[8/12/2026 10:04:04 PM] Info: ========================================
+[8/12/2026 10:04:04 PM] Info: Target Database: VEVODB
+[8/12/2026 10:04:04 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:04:04 PM] Info: Retry Attempts: 1
+[8/12/2026 10:04:04 PM] Info: Where Filter: (source.canonicalName = 'vevodb.operations.content_moderation' OR (source.schema = 'vevodb.operations' AND source.name = 'content_moderation'))
+[8/12/2026 10:04:04 PM] Info: Continue On Error: True
+[8/12/2026 10:04:04 PM] Info: ========================================
+[8/12/2026 10:04:04 PM] Info: Deploying Table vevodb.operations.content_moderation -> Deployed
+[8/12/2026 10:04:05 PM] Info: ========================================
+[8/12/2026 10:04:05 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 10:04:05 PM] Info: Total Objects: 1
+[8/12/2026 10:04:05 PM] Info: Successful: 1
+[8/12/2026 10:04:05 PM] Info: Failed: 0
+[8/12/2026 10:04:05 PM] Info: Average Time per Object: 1.16s
+[8/12/2026 10:04:05 PM] Info: Execution Time: 00:00:01
+[8/12/2026 10:04:05 PM] Info: ========================================

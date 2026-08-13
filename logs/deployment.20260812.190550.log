@@ -1,0 +1,20 @@
+[8/12/2026 7:05:47 PM] Info: ========================================
+[8/12/2026 7:05:47 PM] Info: Starting Code Deployment
+[8/12/2026 7:05:47 PM] Info: ========================================
+[8/12/2026 7:05:47 PM] Info: Target Database: VEVODB
+[8/12/2026 7:05:47 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 7:05:47 PM] Info: Retry Attempts: 1
+[8/12/2026 7:05:47 PM] Info: Where Filter: id IN ('e02b2761-84c6-427d-afc1-2674c74f2a36', '9f45623b-622e-444e-bf5c-4dfe942649c3', 'fac36da8-8abc-4177-9774-5e5467a40902')
+[8/12/2026 7:05:47 PM] Info: Continue On Error: True
+[8/12/2026 7:05:47 PM] Info: ========================================
+[8/12/2026 7:05:47 PM] Info: Deploying Table vevodb.operations.ad_placements -> Deployed
+[8/12/2026 7:05:47 PM] Info: Deploying Table vevodb.operations.ad_campaigns -> Deployed
+[8/12/2026 7:05:47 PM] Info: Deploying Table vevodb.analytics.daily_streams -> Deployed
+[8/12/2026 7:05:50 PM] Info: ========================================
+[8/12/2026 7:05:50 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 7:05:50 PM] Info: Total Objects: 3
+[8/12/2026 7:05:50 PM] Info: Successful: 3
+[8/12/2026 7:05:50 PM] Info: Failed: 0
+[8/12/2026 7:05:50 PM] Info: Average Time per Object: 0.80s
+[8/12/2026 7:05:50 PM] Info: Execution Time: 00:00:02
+[8/12/2026 7:05:50 PM] Info: ========================================

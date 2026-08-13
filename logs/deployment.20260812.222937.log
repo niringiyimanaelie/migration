@@ -1,0 +1,18 @@
+[8/12/2026 10:29:36 PM] Info: ========================================
+[8/12/2026 10:29:36 PM] Info: Starting Code Deployment
+[8/12/2026 10:29:36 PM] Info: ========================================
+[8/12/2026 10:29:36 PM] Info: Target Database: VEVODB
+[8/12/2026 10:29:36 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:29:36 PM] Info: Retry Attempts: 1
+[8/12/2026 10:29:36 PM] Info: Where Filter: (source.canonicalName = 'vevodb.operations.sp_generate_campaign_report(CHARACTER VARYING)' OR (source.schema = 'vevodb.operations' AND source.name = 'sp_generate_campaign_report'))
+[8/12/2026 10:29:36 PM] Info: Continue On Error: True
+[8/12/2026 10:29:36 PM] Info: ========================================
+[8/12/2026 10:29:36 PM] Info: Deploying Procedure vevodb.operations.sp_generate_campaign_report -> Deployed
+[8/12/2026 10:29:37 PM] Info: ========================================
+[8/12/2026 10:29:37 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 10:29:37 PM] Info: Total Objects: 1
+[8/12/2026 10:29:37 PM] Info: Successful: 1
+[8/12/2026 10:29:37 PM] Info: Failed: 0
+[8/12/2026 10:29:37 PM] Info: Average Time per Object: 0.83s
+[8/12/2026 10:29:37 PM] Info: Execution Time: 00:00:00
+[8/12/2026 10:29:37 PM] Info: ========================================

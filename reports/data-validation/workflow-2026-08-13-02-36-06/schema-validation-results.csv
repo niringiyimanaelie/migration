@@ -1,0 +1,463 @@
+ValidationType,TableName,ColumnValidated,EvaluationCriteria,SourceValue,SnowflakeValue,Status,Comments,CreatedAt
+SCHEMA VALIDATION,vevodb.music_catalog.channels,(table),ROW_COUNT,10,10,SUCCESS,"Values match: source(10), Snowflake(10)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,ARTIST_ID,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,ARTIST_ID,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,ARTIST_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,ARTIST_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,ARTIST_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,ARTIST_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,ARTIST_ID,COLUMN_VALIDATED,ARTIST_ID,ARTIST_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_ID,COLUMN_VALIDATED,CHANNEL_ID,CHANNEL_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_NAME,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_NAME,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_NAME,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_NAME,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_NAME,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_NAME,CHARACTER_MAXIMUM_LENGTH,300.0,300.0,SUCCESS,"Values match: source(300.0), Snowflake(300.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CHANNEL_NAME,COLUMN_VALIDATED,CHANNEL_NAME,CHANNEL_NAME,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CREATED_AT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CREATED_AT,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CREATED_AT,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CREATED_AT,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CREATED_AT,DATA_TYPE,TIMESTAMP WITHOUT TIME ZONE,TIMESTAMP_NTZ,SUCCESS,Values match: source(TIMESTAMP WITHOUT TIME ZONE).has a mapping to Snowflake(TIMESTAMP_NTZ),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CREATED_AT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,CREATED_AT,COLUMN_VALIDATED,CREATED_AT,CREATED_AT,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,PLATFORM,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,PLATFORM,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,PLATFORM,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,PLATFORM,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,PLATFORM,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,PLATFORM,CHARACTER_MAXIMUM_LENGTH,50.0,50.0,SUCCESS,"Values match: source(50.0), Snowflake(50.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,PLATFORM,COLUMN_VALIDATED,PLATFORM,PLATFORM,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,SUBSCRIBER_COUNT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,SUBSCRIBER_COUNT,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,SUBSCRIBER_COUNT,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,SUBSCRIBER_COUNT,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,SUBSCRIBER_COUNT,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,SUBSCRIBER_COUNT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,VERIFIED,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,VERIFIED,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,VERIFIED,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,VERIFIED,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,VERIFIED,DATA_TYPE,BOOLEAN,BOOLEAN,SUCCESS,"Values match: source(BOOLEAN), Snowflake(BOOLEAN)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,VERIFIED,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.music_catalog.channels,VERIFIED,COLUMN_VALIDATED,VERIFIED,VERIFIED,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,(table),ROW_COUNT,20,20,SUCCESS,"Values match: source(20), Snowflake(20)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,AVG_WATCH_TIME_SECONDS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,AVG_WATCH_TIME_SECONDS,ORDINAL_POSITION,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,AVG_WATCH_TIME_SECONDS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,AVG_WATCH_TIME_SECONDS,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,AVG_WATCH_TIME_SECONDS,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,AVG_WATCH_TIME_SECONDS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,AVG_WATCH_TIME_SECONDS,COLUMN_VALIDATED,AVG_WATCH_TIME_SECONDS,AVG_WATCH_TIME_SECONDS,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,COUNTRY,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,COUNTRY,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,COUNTRY,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,COUNTRY,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,COUNTRY,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,COUNTRY,CHARACTER_MAXIMUM_LENGTH,50.0,50.0,SUCCESS,"Values match: source(50.0), Snowflake(50.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,COUNTRY,COLUMN_VALIDATED,COUNTRY,COUNTRY,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,DEVICE_TYPE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,DEVICE_TYPE,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,DEVICE_TYPE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,DEVICE_TYPE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,DEVICE_TYPE,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,DEVICE_TYPE,CHARACTER_MAXIMUM_LENGTH,30.0,30.0,SUCCESS,"Values match: source(30.0), Snowflake(30.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,DEVICE_TYPE,COLUMN_VALIDATED,DEVICE_TYPE,DEVICE_TYPE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,REVENUE_USD,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,REVENUE_USD,ORDINAL_POSITION,9,9,SUCCESS,"Values match: source(9), Snowflake(9)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,REVENUE_USD,NUMERIC_SCALE,2.0,2.0,SUCCESS,"Values match: source(2.0), Snowflake(2.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,REVENUE_USD,NUMERIC_PRECISION,12.0,12.0,SUCCESS,"Values match: source(12.0), Snowflake(12.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,REVENUE_USD,DATA_TYPE,NUMERIC,NUMBER,SUCCESS,Values match: source(NUMERIC).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,REVENUE_USD,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,REVENUE_USD,COLUMN_VALIDATED,REVENUE_USD,REVENUE_USD,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_COUNT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_COUNT,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_COUNT,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_COUNT,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_COUNT,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_COUNT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_DATE,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_DATE,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_DATE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_DATE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_DATE,DATA_TYPE,DATE,DATE,SUCCESS,"Values match: source(DATE), Snowflake(DATE)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_DATE,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_DATE,COLUMN_VALIDATED,STREAM_DATE,STREAM_DATE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_ID,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_ID,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,STREAM_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,UNIQUE_VIEWERS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,UNIQUE_VIEWERS,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,UNIQUE_VIEWERS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,UNIQUE_VIEWERS,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,UNIQUE_VIEWERS,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,UNIQUE_VIEWERS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,VIDEO_ID,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,VIDEO_ID,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,VIDEO_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,VIDEO_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,VIDEO_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,VIDEO_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.analytics.daily_streams,VIDEO_ID,COLUMN_VALIDATED,VIDEO_ID,VIDEO_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,(table),ROW_COUNT,16,16,SUCCESS,"Values match: source(16), Snowflake(16)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,ARTIST_ID,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,ARTIST_ID,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,ARTIST_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,ARTIST_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,ARTIST_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,ARTIST_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,ARTIST_ID,COLUMN_VALIDATED,ARTIST_ID,ARTIST_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,CREATED_AT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,CREATED_AT,ORDINAL_POSITION,10,10,SUCCESS,"Values match: source(10), Snowflake(10)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,CREATED_AT,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,CREATED_AT,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,CREATED_AT,DATA_TYPE,TIMESTAMP WITHOUT TIME ZONE,TIMESTAMP_NTZ,SUCCESS,Values match: source(TIMESTAMP WITHOUT TIME ZONE).has a mapping to Snowflake(TIMESTAMP_NTZ),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,CREATED_AT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,CREATED_AT,COLUMN_VALIDATED,CREATED_AT,CREATED_AT,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,DURATION_SECONDS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,DURATION_SECONDS,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,DURATION_SECONDS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,DURATION_SECONDS,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,DURATION_SECONDS,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,DURATION_SECONDS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,DURATION_SECONDS,COLUMN_VALIDATED,DURATION_SECONDS,DURATION_SECONDS,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,GENRE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,GENRE,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,GENRE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,GENRE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,GENRE,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,GENRE,CHARACTER_MAXIMUM_LENGTH,100.0,100.0,SUCCESS,"Values match: source(100.0), Snowflake(100.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,GENRE,COLUMN_VALIDATED,GENRE,GENRE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,IS_EXPLICIT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,IS_EXPLICIT,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,IS_EXPLICIT,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,IS_EXPLICIT,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,IS_EXPLICIT,DATA_TYPE,BOOLEAN,BOOLEAN,SUCCESS,"Values match: source(BOOLEAN), Snowflake(BOOLEAN)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,IS_EXPLICIT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,IS_EXPLICIT,COLUMN_VALIDATED,IS_EXPLICIT,IS_EXPLICIT,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,RELEASE_DATE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,RELEASE_DATE,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,RELEASE_DATE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,RELEASE_DATE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,RELEASE_DATE,DATA_TYPE,DATE,DATE,SUCCESS,"Values match: source(DATE), Snowflake(DATE)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,RELEASE_DATE,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,RELEASE_DATE,COLUMN_VALIDATED,RELEASE_DATE,RELEASE_DATE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TITLE,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TITLE,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TITLE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TITLE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TITLE,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TITLE,CHARACTER_MAXIMUM_LENGTH,500.0,500.0,SUCCESS,"Values match: source(500.0), Snowflake(500.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TITLE,COLUMN_VALIDATED,TITLE,TITLE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TOTAL_VIEWS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TOTAL_VIEWS,ORDINAL_POSITION,9,9,SUCCESS,"Values match: source(9), Snowflake(9)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TOTAL_VIEWS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TOTAL_VIEWS,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TOTAL_VIEWS,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,TOTAL_VIEWS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_ID,COLUMN_VALIDATED,VIDEO_ID,VIDEO_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_QUALITY,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_QUALITY,ORDINAL_POSITION,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_QUALITY,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_QUALITY,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_QUALITY,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_QUALITY,CHARACTER_MAXIMUM_LENGTH,10.0,10.0,SUCCESS,"Values match: source(10.0), Snowflake(10.0)",08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.videos,VIDEO_QUALITY,COLUMN_VALIDATED,VIDEO_QUALITY,VIDEO_QUALITY,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:00
+SCHEMA VALIDATION,vevodb.music_catalog.artists,(table),ROW_COUNT,10,10,SUCCESS,"Values match: source(10), Snowflake(10)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_ID,COLUMN_VALIDATED,ARTIST_ID,ARTIST_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_NAME,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_NAME,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_NAME,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_NAME,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_NAME,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_NAME,CHARACTER_MAXIMUM_LENGTH,200.0,200.0,SUCCESS,"Values match: source(200.0), Snowflake(200.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,ARTIST_NAME,COLUMN_VALIDATED,ARTIST_NAME,ARTIST_NAME,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,COUNTRY,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,COUNTRY,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,COUNTRY,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,COUNTRY,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,COUNTRY,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,COUNTRY,CHARACTER_MAXIMUM_LENGTH,50.0,50.0,SUCCESS,"Values match: source(50.0), Snowflake(50.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,COUNTRY,COLUMN_VALIDATED,COUNTRY,COUNTRY,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,CREATED_AT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,CREATED_AT,ORDINAL_POSITION,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,CREATED_AT,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,CREATED_AT,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,CREATED_AT,DATA_TYPE,TIMESTAMP WITHOUT TIME ZONE,TIMESTAMP_NTZ,SUCCESS,Values match: source(TIMESTAMP WITHOUT TIME ZONE).has a mapping to Snowflake(TIMESTAMP_NTZ),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,CREATED_AT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,CREATED_AT,COLUMN_VALIDATED,CREATED_AT,CREATED_AT,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,DEBUT_YEAR,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,DEBUT_YEAR,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,DEBUT_YEAR,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,DEBUT_YEAR,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,DEBUT_YEAR,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,DEBUT_YEAR,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,DEBUT_YEAR,COLUMN_VALIDATED,DEBUT_YEAR,DEBUT_YEAR,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,GENRE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,GENRE,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,GENRE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,GENRE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,GENRE,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,GENRE,CHARACTER_MAXIMUM_LENGTH,100.0,100.0,SUCCESS,"Values match: source(100.0), Snowflake(100.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,GENRE,COLUMN_VALIDATED,GENRE,GENRE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,LABEL,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,LABEL,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,LABEL,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,LABEL,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,LABEL,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,LABEL,CHARACTER_MAXIMUM_LENGTH,200.0,200.0,SUCCESS,"Values match: source(200.0), Snowflake(200.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,LABEL,COLUMN_VALIDATED,LABEL,LABEL,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,MONTHLY_LISTENERS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,MONTHLY_LISTENERS,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,MONTHLY_LISTENERS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,MONTHLY_LISTENERS,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,MONTHLY_LISTENERS,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.music_catalog.artists,MONTHLY_LISTENERS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:02
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,(table),ROW_COUNT,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,ADVERTISER,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,ADVERTISER,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,ADVERTISER,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,ADVERTISER,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,ADVERTISER,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,ADVERTISER,CHARACTER_MAXIMUM_LENGTH,200.0,200.0,SUCCESS,"Values match: source(200.0), Snowflake(200.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,ADVERTISER,COLUMN_VALIDATED,ADVERTISER,ADVERTISER,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,BUDGET_USD,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,BUDGET_USD,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,BUDGET_USD,NUMERIC_SCALE,2.0,2.0,SUCCESS,"Values match: source(2.0), Snowflake(2.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,BUDGET_USD,NUMERIC_PRECISION,12.0,12.0,SUCCESS,"Values match: source(12.0), Snowflake(12.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,BUDGET_USD,DATA_TYPE,NUMERIC,NUMBER,SUCCESS,Values match: source(NUMERIC).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,BUDGET_USD,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,BUDGET_USD,COLUMN_VALIDATED,BUDGET_USD,BUDGET_USD,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_ID,COLUMN_VALIDATED,CAMPAIGN_ID,CAMPAIGN_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_NAME,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_NAME,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_NAME,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_NAME,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_NAME,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_NAME,CHARACTER_MAXIMUM_LENGTH,300.0,300.0,SUCCESS,"Values match: source(300.0), Snowflake(300.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CAMPAIGN_NAME,COLUMN_VALIDATED,CAMPAIGN_NAME,CAMPAIGN_NAME,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CREATED_AT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CREATED_AT,ORDINAL_POSITION,9,9,SUCCESS,"Values match: source(9), Snowflake(9)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CREATED_AT,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CREATED_AT,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CREATED_AT,DATA_TYPE,TIMESTAMP WITHOUT TIME ZONE,TIMESTAMP_NTZ,SUCCESS,Values match: source(TIMESTAMP WITHOUT TIME ZONE).has a mapping to Snowflake(TIMESTAMP_NTZ),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CREATED_AT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,CREATED_AT,COLUMN_VALIDATED,CREATED_AT,CREATED_AT,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,END_DATE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,END_DATE,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,END_DATE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,END_DATE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,END_DATE,DATA_TYPE,DATE,DATE,SUCCESS,"Values match: source(DATE), Snowflake(DATE)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,END_DATE,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,END_DATE,COLUMN_VALIDATED,END_DATE,END_DATE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,START_DATE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,START_DATE,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,START_DATE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,START_DATE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,START_DATE,DATA_TYPE,DATE,DATE,SUCCESS,"Values match: source(DATE), Snowflake(DATE)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,START_DATE,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,START_DATE,COLUMN_VALIDATED,START_DATE,START_DATE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,STATUS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,STATUS,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,STATUS,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,STATUS,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,STATUS,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,STATUS,CHARACTER_MAXIMUM_LENGTH,20.0,20.0,SUCCESS,"Values match: source(20.0), Snowflake(20.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,STATUS,COLUMN_VALIDATED,STATUS,STATUS,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,TARGET_DEMOGRAPHIC,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,TARGET_DEMOGRAPHIC,ORDINAL_POSITION,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,TARGET_DEMOGRAPHIC,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,TARGET_DEMOGRAPHIC,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,TARGET_DEMOGRAPHIC,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,TARGET_DEMOGRAPHIC,CHARACTER_MAXIMUM_LENGTH,100.0,100.0,SUCCESS,"Values match: source(100.0), Snowflake(100.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_campaigns,TARGET_DEMOGRAPHIC,COLUMN_VALIDATED,TARGET_DEMOGRAPHIC,TARGET_DEMOGRAPHIC,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,(table),ROW_COUNT,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_DATE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_DATE,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_DATE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_DATE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_DATE,DATA_TYPE,TIMESTAMP WITHOUT TIME ZONE,TIMESTAMP_NTZ,SUCCESS,Values match: source(TIMESTAMP WITHOUT TIME ZONE).has a mapping to Snowflake(TIMESTAMP_NTZ),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_DATE,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_DATE,COLUMN_VALIDATED,FLAG_DATE,FLAG_DATE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_REASON,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_REASON,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_REASON,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_REASON,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_REASON,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_REASON,CHARACTER_MAXIMUM_LENGTH,200.0,200.0,SUCCESS,"Values match: source(200.0), Snowflake(200.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,FLAG_REASON,COLUMN_VALIDATED,FLAG_REASON,FLAG_REASON,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,MODERATION_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,MODERATION_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,MODERATION_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,MODERATION_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,MODERATION_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,MODERATION_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,MODERATION_ID,COLUMN_VALIDATED,MODERATION_ID,MODERATION_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLUTION,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLUTION,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLUTION,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLUTION,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLUTION,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLUTION,CHARACTER_MAXIMUM_LENGTH,50.0,50.0,SUCCESS,"Values match: source(50.0), Snowflake(50.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLUTION,COLUMN_VALIDATED,RESOLUTION,RESOLUTION,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLVED_AT,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLVED_AT,ORDINAL_POSITION,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLVED_AT,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLVED_AT,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLVED_AT,DATA_TYPE,TIMESTAMP WITHOUT TIME ZONE,TIMESTAMP_NTZ,SUCCESS,Values match: source(TIMESTAMP WITHOUT TIME ZONE).has a mapping to Snowflake(TIMESTAMP_NTZ),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLVED_AT,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,RESOLVED_AT,COLUMN_VALIDATED,RESOLVED_AT,RESOLVED_AT,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,REVIEWER,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,REVIEWER,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,REVIEWER,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,REVIEWER,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,REVIEWER,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,REVIEWER,CHARACTER_MAXIMUM_LENGTH,100.0,100.0,SUCCESS,"Values match: source(100.0), Snowflake(100.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,REVIEWER,COLUMN_VALIDATED,REVIEWER,REVIEWER,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,SEVERITY,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,SEVERITY,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,SEVERITY,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,SEVERITY,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,SEVERITY,DATA_TYPE,CHARACTER VARYING,TEXT,SUCCESS,Values match: source(CHARACTER VARYING).has a mapping to Snowflake(TEXT),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,SEVERITY,CHARACTER_MAXIMUM_LENGTH,20.0,20.0,SUCCESS,"Values match: source(20.0), Snowflake(20.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,SEVERITY,COLUMN_VALIDATED,SEVERITY,SEVERITY,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,VIDEO_ID,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,VIDEO_ID,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,VIDEO_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,VIDEO_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,VIDEO_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,VIDEO_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.content_moderation,VIDEO_ID,COLUMN_VALIDATED,VIDEO_ID,VIDEO_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,(table),ROW_COUNT,10,10,SUCCESS,"Values match: source(10), Snowflake(10)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CAMPAIGN_ID,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CAMPAIGN_ID,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CAMPAIGN_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CAMPAIGN_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CAMPAIGN_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CAMPAIGN_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CAMPAIGN_ID,COLUMN_VALIDATED,CAMPAIGN_ID,CAMPAIGN_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CLICKS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CLICKS,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CLICKS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CLICKS,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CLICKS,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CLICKS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,COST_USD,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,COST_USD,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,COST_USD,NUMERIC_SCALE,2.0,2.0,SUCCESS,"Values match: source(2.0), Snowflake(2.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,COST_USD,NUMERIC_PRECISION,10.0,10.0,SUCCESS,"Values match: source(10.0), Snowflake(10.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,COST_USD,DATA_TYPE,NUMERIC,NUMBER,SUCCESS,Values match: source(NUMERIC).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,COST_USD,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,COST_USD,COLUMN_VALIDATED,COST_USD,COST_USD,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CTR,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CTR,ORDINAL_POSITION,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CTR,NUMERIC_SCALE,4.0,4.0,SUCCESS,"Values match: source(4.0), Snowflake(4.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CTR,NUMERIC_PRECISION,5.0,5.0,SUCCESS,"Values match: source(5.0), Snowflake(5.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CTR,DATA_TYPE,NUMERIC,NUMBER,SUCCESS,Values match: source(NUMERIC).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CTR,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,CTR,COLUMN_VALIDATED,CTR,CTR,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,IMPRESSIONS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,IMPRESSIONS,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,IMPRESSIONS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,IMPRESSIONS,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,IMPRESSIONS,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,IMPRESSIONS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_DATE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_DATE,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_DATE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_DATE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_DATE,DATA_TYPE,DATE,DATE,SUCCESS,"Values match: source(DATE), Snowflake(DATE)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_DATE,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_DATE,COLUMN_VALIDATED,PLACEMENT_DATE,PLACEMENT_DATE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_ID,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_ID,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,PLACEMENT_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,VIDEO_ID,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,VIDEO_ID,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,VIDEO_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,VIDEO_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,VIDEO_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,VIDEO_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.operations.ad_placements,VIDEO_ID,COLUMN_VALIDATED,VIDEO_ID,VIDEO_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:21
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,(table),ROW_COUNT,14,14,SUCCESS,"Values match: source(14), Snowflake(14)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,COMMENTS,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,COMMENTS,ORDINAL_POSITION,6,6,SUCCESS,"Values match: source(6), Snowflake(6)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,COMMENTS,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,COMMENTS,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,COMMENTS,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,COMMENTS,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,DISLIKES,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,DISLIKES,ORDINAL_POSITION,5,5,SUCCESS,"Values match: source(5), Snowflake(5)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,DISLIKES,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,DISLIKES,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,DISLIKES,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,DISLIKES,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_DATE,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_DATE,ORDINAL_POSITION,3,3,SUCCESS,"Values match: source(3), Snowflake(3)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_DATE,NUMERIC_SCALE,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_DATE,NUMERIC_PRECISION,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_DATE,DATA_TYPE,DATE,DATE,SUCCESS,"Values match: source(DATE), Snowflake(DATE)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_DATE,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_DATE,COLUMN_VALIDATED,ENGAGEMENT_DATE,ENGAGEMENT_DATE,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_ID,IS_NULLABLE,NO,NO,SUCCESS,"Values match: source(NO), Snowflake(NO)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_ID,ORDINAL_POSITION,1,1,SUCCESS,"Values match: source(1), Snowflake(1)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_ID,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_ID,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,ENGAGEMENT_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,LIKES,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,LIKES,ORDINAL_POSITION,4,4,SUCCESS,"Values match: source(4), Snowflake(4)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,LIKES,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,LIKES,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,LIKES,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,LIKES,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SAVES,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SAVES,ORDINAL_POSITION,8,8,SUCCESS,"Values match: source(8), Snowflake(8)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SAVES,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SAVES,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SAVES,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SAVES,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SHARES,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SHARES,ORDINAL_POSITION,7,7,SUCCESS,"Values match: source(7), Snowflake(7)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SHARES,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SHARES,NUMERIC_PRECISION,64.0,38.0,FAILURE,"Values differ: source(64.0), Snowflake(38.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SHARES,DATA_TYPE,BIGINT,NUMBER,SUCCESS,Values match: source(BIGINT).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,SHARES,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,VIDEO_ID,IS_NULLABLE,YES,YES,SUCCESS,"Values match: source(YES), Snowflake(YES)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,VIDEO_ID,ORDINAL_POSITION,2,2,SUCCESS,"Values match: source(2), Snowflake(2)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,VIDEO_ID,NUMERIC_SCALE,0.0,0.0,SUCCESS,"Values match: source(0.0), Snowflake(0.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,VIDEO_ID,NUMERIC_PRECISION,32.0,38.0,WARNING,"Source value is lower than target value: source(32.0), target(38.0)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,VIDEO_ID,DATA_TYPE,INTEGER,NUMBER,SUCCESS,Values match: source(INTEGER).has a mapping to Snowflake(NUMBER),08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,VIDEO_ID,CHARACTER_MAXIMUM_LENGTH,N/A,N/A,SUCCESS,"Values match: source(N/A), Snowflake(N/A)",08/13/2026 02:37:23
+SCHEMA VALIDATION,vevodb.analytics.user_engagement,VIDEO_ID,COLUMN_VALIDATED,VIDEO_ID,VIDEO_ID,SUCCESS,Values match: Column exists in target table and all metadata matches,08/13/2026 02:37:23

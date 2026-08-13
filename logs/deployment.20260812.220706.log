@@ -1,0 +1,21 @@
+[8/12/2026 10:07:05 PM] Info: ========================================
+[8/12/2026 10:07:05 PM] Info: Starting Code Deployment
+[8/12/2026 10:07:05 PM] Info: ========================================
+[8/12/2026 10:07:05 PM] Info: Target Database: VEVODB
+[8/12/2026 10:07:05 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:07:05 PM] Info: Retry Attempts: 1
+[8/12/2026 10:07:05 PM] Info: Where Filter: (source.canonicalName = 'vevodb.operations.mv_advertiser_spend' OR (source.schema = 'vevodb.operations' AND source.name = 'mv_advertiser_spend'))
+[8/12/2026 10:07:05 PM] Info: Continue On Error: True
+[8/12/2026 10:07:05 PM] Info: ========================================
+[8/12/2026 10:07:05 PM] Warn: Deploying MaterializedView vevodb.operations.mv_advertiser_spend - FAILED: Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement "CREATE DYNAMIC TABLE operation..." (at line 2, position 0).
+Warehouse 'UPDATE_DUMMY_WAREHOUSE' does not exist. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4
+stackstrace: 
+SYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c6594f-0202-b953-0011-73e30193506a
+[8/12/2026 10:07:06 PM] Info: ========================================
+[8/12/2026 10:07:06 PM] Info: Code Deployment Completed with Errors
+[8/12/2026 10:07:06 PM] Info: Total Objects: 1
+[8/12/2026 10:07:06 PM] Info: Successful: 0
+[8/12/2026 10:07:06 PM] Info: Failed: 1
+[8/12/2026 10:07:06 PM] Info: Average Time per Object: 0.71s
+[8/12/2026 10:07:06 PM] Info: Execution Time: 00:00:00
+[8/12/2026 10:07:06 PM] Info: ========================================

@@ -1,0 +1,4 @@
+OBJECT_NAME,OBJECT_TYPE,STATUS,ERROR_MESSAGE,DATABASE,SCHEMA,FQN,SNOWSIGHT_URL
+vevodb.operations.ad_placements,Table,Deployed,,VEVODB,PUBLIC,VEVODB.PUBLIC.vevodb.operations.ad_placements,https://app.snowflake.com/SFPSCOGS/ENIRINGIYIMANA/#/data/databases/VEVODB/schemas/PUBLIC
+vevodb.operations.ad_campaigns,Table,Deployed,,VEVODB,PUBLIC,VEVODB.PUBLIC.vevodb.operations.ad_campaigns,https://app.snowflake.com/SFPSCOGS/ENIRINGIYIMANA/#/data/databases/VEVODB/schemas/PUBLIC
+vevodb.analytics.daily_streams,Table,Deployed,,VEVODB,PUBLIC,VEVODB.PUBLIC.vevodb.analytics.daily_streams,https://app.snowflake.com/SFPSCOGS/ENIRINGIYIMANA/#/data/databases/VEVODB/schemas/PUBLIC

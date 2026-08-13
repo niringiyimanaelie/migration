@@ -1,0 +1,18 @@
+[8/12/2026 10:16:54 PM] Info: ========================================
+[8/12/2026 10:16:54 PM] Info: Starting Code Deployment
+[8/12/2026 10:16:54 PM] Info: ========================================
+[8/12/2026 10:16:54 PM] Info: Target Database: VEVODB
+[8/12/2026 10:16:54 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:16:54 PM] Info: Retry Attempts: 1
+[8/12/2026 10:16:54 PM] Info: Where Filter: (source.canonicalName = 'vevodb.analytics.sp_refresh_daily_summary(DATE)' OR (source.schema = 'vevodb.analytics' AND source.name = 'sp_refresh_daily_summary'))
+[8/12/2026 10:16:54 PM] Info: Continue On Error: True
+[8/12/2026 10:16:54 PM] Info: ========================================
+[8/12/2026 10:16:54 PM] Info: Deploying Procedure vevodb.analytics.sp_refresh_daily_summary -> Deployed
+[8/12/2026 10:16:54 PM] Info: ========================================
+[8/12/2026 10:16:54 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 10:16:54 PM] Info: Total Objects: 1
+[8/12/2026 10:16:54 PM] Info: Successful: 1
+[8/12/2026 10:16:54 PM] Info: Failed: 0
+[8/12/2026 10:16:54 PM] Info: Average Time per Object: 0.84s
+[8/12/2026 10:16:54 PM] Info: Execution Time: 00:00:00
+[8/12/2026 10:16:54 PM] Info: ========================================

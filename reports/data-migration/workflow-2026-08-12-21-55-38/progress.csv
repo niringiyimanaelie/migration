@@ -1,0 +1,4 @@
+TableName,HasBeenPreprocessed,TotalPartitions,PartitionsInExtractionPhase,PartitionsInLoadingPhase,LoadedPartitions,FailedPartitions,ExampleErrorMessage
+vevodb.operations.ad_placements,True,1,0,0,1,0,
+vevodb.analytics.daily_streams,True,1,0,0,1,0,
+vevodb.operations.ad_campaigns,True,1,0,0,1,0,

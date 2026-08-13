@@ -1,0 +1,8 @@
+# Test configuration for sp_refresh_daily_summary
+validation:
+  steps:
+    - source_query: CALL vevodb.analytics.sp_refresh_daily_summary({0})
+      target_query: CALL vevodb.analytics.sp_refresh_daily_summary(target_date => {0})
+      validate: true
+  test_cases:
+    - ["2024-01-15"]

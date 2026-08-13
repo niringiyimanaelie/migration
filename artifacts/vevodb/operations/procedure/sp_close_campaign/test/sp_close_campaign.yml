@@ -1,0 +1,10 @@
+# Test configuration for sp_close_campaign
+validation:
+  steps:
+    - source_query: CALL vevodb.operations.sp_close_campaign({0})
+      target_query: CALL vevodb.operations.sp_close_campaign(p_campaign_id => {0})
+      validate: true
+  test_cases:
+    - [1]
+    - [2]
+    - [3]

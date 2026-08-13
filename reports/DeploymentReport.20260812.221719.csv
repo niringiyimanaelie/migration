@@ -1,0 +1,7 @@
+OBJECT_NAME,OBJECT_TYPE,STATUS,ERROR_MESSAGE,DATABASE,SCHEMA,FQN,SNOWSIGHT_URL
+vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade,Procedure,Failed,"Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement ""CREATE OR REPLACE PROCEDURE op..."" (at line 3, position 0).
+SQL compilation error:
+syntax error line 4 at position 5 unexpected '!'.
+syntax error line 4 at position 19 unexpected '!'. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4
+stackstrace: 
+SYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65959-0202-bb06-0011-73e3019343a6",VEVODB,PUBLIC,VEVODB.PUBLIC.vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade,https://app.snowflake.com/SFPSCOGS/ENIRINGIYIMANA/#/data/databases/VEVODB/schemas/PUBLIC

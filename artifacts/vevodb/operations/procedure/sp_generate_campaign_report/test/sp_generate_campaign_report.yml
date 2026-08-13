@@ -1,0 +1,9 @@
+# Test configuration for sp_generate_campaign_report
+validation:
+  steps:
+    - source_query: CALL vevodb.operations.sp_generate_campaign_report({0})
+      target_query: CALL vevodb.operations.sp_generate_campaign_report(p_advertiser => {0})
+      validate: true
+  test_cases:
+    - ["Spotify"]
+    - ["Apple Music"]

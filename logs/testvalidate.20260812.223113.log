@@ -1,0 +1,15 @@
+[8/12/2026 10:30:10 PM] Info: ========================================
+[8/12/2026 10:30:10 PM] Info: Starting Test Validate
+[8/12/2026 10:30:10 PM] Info: ========================================
+[8/12/2026 10:30:10 PM] Info: Mode: Validate
+[8/12/2026 10:30:10 PM] Info: Project Root: /Users/elieniringiyimana/Documents/test_migration_toool/migration
+[8/12/2026 10:30:10 PM] Info: Create Schema: False
+[8/12/2026 10:30:10 PM] Info: ========================================
+[1/1/0001 12:00:00 AM] Info: ========================================
+[1/1/0001 12:00:00 AM] Info: Test Validate Completed Successfully
+[1/1/0001 12:00:00 AM] Info: Total Test Cases: 6
+[1/1/0001 12:00:00 AM] Info: Passed: 6
+[1/1/0001 12:00:00 AM] Info: Failed: 0
+[1/1/0001 12:00:00 AM] Info: Errors: 0
+[1/1/0001 12:00:00 AM] Info: Execution Time: 22:30:10
+[1/1/0001 12:00:00 AM] Info: ========================================

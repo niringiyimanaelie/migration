@@ -1,0 +1,18 @@
+[8/12/2026 10:06:36 PM] Info: ========================================
+[8/12/2026 10:06:36 PM] Info: Starting Code Deployment
+[8/12/2026 10:06:36 PM] Info: ========================================
+[8/12/2026 10:06:36 PM] Info: Target Database: VEVODB
+[8/12/2026 10:06:36 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:06:36 PM] Info: Retry Attempts: 1
+[8/12/2026 10:06:36 PM] Info: Where Filter: (source.canonicalName = 'vevodb.analytics.v_top_artists_by_streams' OR (source.schema = 'vevodb.analytics' AND source.name = 'v_top_artists_by_streams'))
+[8/12/2026 10:06:36 PM] Info: Continue On Error: True
+[8/12/2026 10:06:36 PM] Info: ========================================
+[8/12/2026 10:06:36 PM] Info: Deploying View vevodb.analytics.v_top_artists_by_streams -> Deployed
+[8/12/2026 10:06:37 PM] Info: ========================================
+[8/12/2026 10:06:37 PM] Info: Code Deployment Completed Successfully
+[8/12/2026 10:06:37 PM] Info: Total Objects: 1
+[8/12/2026 10:06:37 PM] Info: Successful: 1
+[8/12/2026 10:06:37 PM] Info: Failed: 0
+[8/12/2026 10:06:37 PM] Info: Average Time per Object: 1.45s
+[8/12/2026 10:06:37 PM] Info: Execution Time: 00:00:01
+[8/12/2026 10:06:37 PM] Info: ========================================

@@ -5,6 +5,7 @@ RETURNS VARCHAR
  EXECUTE AS CALLER
 AS $$
 BEGIN
-  REFRESH MATERIALIZED VIEW analytics.mv_daily_revenue_summary !!!RESOLVE EWI!!! /*** SSC-EWI-0073 - PENDING FUNCTIONAL EQUIVALENCE REVIEW FOR 'RefreshMaterializedView' NODE ***/!!!;
+  ALTER DYNAMIC TABLE analytics.mv_daily_revenue_summary REFRESH;
+  RETURN 'Refresh triggered for mv_daily_revenue_summary';
 END;
 $$;

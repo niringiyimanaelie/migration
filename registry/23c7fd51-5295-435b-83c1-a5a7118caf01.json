@@ -1,4 +1,14 @@
 {
+  "cloudStatus": {
+    "deployment": {
+      "deployedTo": "VEVODB",
+      "details": {
+        "error": "Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement \"CREATE OR REPLACE PROCEDURE an...\" (at line 3, position 0).\nSQL compilation error:\nsyntax error line 4 at position 5 unexpected '!'.\nsyntax error line 4 at position 19 unexpected '!'. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4\nstackstrace: \nSYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65959-0202-b777-0011-73e30193f01e"
+      },
+      "status": "completed",
+      "updatedAt": "2026-08-12T22:18:02Z"
+    }
+  },
   "codeStatus": {
     "assessment": {
       "containsCommit": false,
@@ -61,7 +71,7 @@
       "path": "artifacts/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade"
     },
     "converted": {
-      "checksum": "b5fac6896018edc922c6a18f81322299",
+      "checksum": "08b68a94d2e23a774c1674a2fe2cc65b",
       "path": "snowflake/vevodb/analytics/procedure/mv_sp__mv_daily_revenue_summary__4_2_cascade.sql"
     },
     "source": {
@@ -202,5 +212,5 @@
     "objectType": "procedure",
     "schema": "analytics"
   },
-  "updatedAt": "2026-08-12T17:52:15Z"
+  "updatedAt": "2026-08-12T22:18:02Z"
 }

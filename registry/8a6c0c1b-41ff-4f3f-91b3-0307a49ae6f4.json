@@ -1,4 +1,14 @@
 {
+  "cloudStatus": {
+    "deployment": {
+      "deployedTo": "VEVODB",
+      "details": {
+        "error": "Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement \"CREATE DYNAMIC TABLE analytics...\" (at line 2, position 0).\nWarehouse 'UPDATE_DUMMY_WAREHOUSE' does not exist. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4\nstackstrace: \nSYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c6594f-0202-bb10-0011-73e30193601a"
+      },
+      "status": "completed",
+      "updatedAt": "2026-08-12T22:11:31Z"
+    }
+  },
   "codeStatus": {
     "assessment": {
       "containsCommit": false,
@@ -35,7 +45,7 @@
       "path": "artifacts/vevodb/analytics/materializedview/mv_daily_revenue_summary"
     },
     "converted": {
-      "checksum": "646ecede8e06eb2d0da6600d9f36b81a",
+      "checksum": "e2eaa92dacddf3b57cdee176412f4ec5",
       "path": "snowflake/vevodb/analytics/materializedview/mv_daily_revenue_summary.sql"
     },
     "source": {
@@ -125,5 +135,5 @@
     "objectType": "materializedView",
     "schema": "analytics"
   },
-  "updatedAt": "2026-08-12T17:52:15Z"
+  "updatedAt": "2026-08-12T22:11:31Z"
 }

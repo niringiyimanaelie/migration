@@ -1,4 +1,12 @@
 {
+  "cloudStatus": {
+    "deployment": {
+      "deployedTo": "VEVODB",
+      "details": {},
+      "status": "completed",
+      "updatedAt": "2026-08-12T22:06:30Z"
+    }
+  },
   "codeStatus": {
     "assessment": {
       "containsCommit": false,
@@ -190,5 +198,5 @@
     "objectType": "view",
     "schema": "music_catalog"
   },
-  "updatedAt": "2026-08-12T17:52:15Z"
+  "updatedAt": "2026-08-12T22:06:30Z"
 }

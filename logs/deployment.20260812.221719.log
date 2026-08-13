@@ -1,0 +1,23 @@
+[8/12/2026 10:17:18 PM] Info: ========================================
+[8/12/2026 10:17:18 PM] Info: Starting Code Deployment
+[8/12/2026 10:17:18 PM] Info: ========================================
+[8/12/2026 10:17:18 PM] Info: Target Database: VEVODB
+[8/12/2026 10:17:18 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 10:17:18 PM] Info: Retry Attempts: 1
+[8/12/2026 10:17:18 PM] Info: Where Filter: (source.canonicalName = 'vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade(BIGINT,BIGINT,BOOLEAN,CHARACTER VARYING,BIGINT,CHARACTER VARYING)' OR (source.schema = 'vevodb.operations' AND source.name = 'mv_sp__mv_advertiser_spend__4_2_cascade'))
+[8/12/2026 10:17:18 PM] Info: Continue On Error: True
+[8/12/2026 10:17:18 PM] Info: ========================================
+[8/12/2026 10:17:18 PM] Warn: Deploying Procedure vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade - FAILED: Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement "CREATE OR REPLACE PROCEDURE op..." (at line 3, position 0).
+SQL compilation error:
+syntax error line 4 at position 5 unexpected '!'.
+syntax error line 4 at position 19 unexpected '!'. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4
+stackstrace: 
+SYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65959-0202-bb06-0011-73e3019343a6
+[8/12/2026 10:17:19 PM] Info: ========================================
+[8/12/2026 10:17:19 PM] Info: Code Deployment Completed with Errors
+[8/12/2026 10:17:19 PM] Info: Total Objects: 1
+[8/12/2026 10:17:19 PM] Info: Successful: 0
+[8/12/2026 10:17:19 PM] Info: Failed: 1
+[8/12/2026 10:17:19 PM] Info: Average Time per Object: 0.82s
+[8/12/2026 10:17:19 PM] Info: Execution Time: 00:00:00
+[8/12/2026 10:17:19 PM] Info: ========================================

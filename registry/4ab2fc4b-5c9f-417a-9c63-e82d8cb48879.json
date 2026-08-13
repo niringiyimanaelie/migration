@@ -1,4 +1,12 @@
 {
+  "cloudStatus": {
+    "deployment": {
+      "deployedTo": "VEVODB",
+      "details": {},
+      "status": "completed",
+      "updatedAt": "2026-08-12T22:05:52Z"
+    }
+  },
   "codeStatus": {
     "assessment": {
       "containsCommit": false,
@@ -159,5 +167,5 @@
     "objectType": "table",
     "schema": "operations"
   },
-  "updatedAt": "2026-08-12T17:52:15Z"
+  "updatedAt": "2026-08-12T22:05:52Z"
 }

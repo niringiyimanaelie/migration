@@ -1,0 +1,16 @@
+TableName,PartitionNumber,PartitionMinValue,PartitionMaxValue,PartitionRows,TaskName,TaskStartTime,TaskEndTime,LastErrorMessage
+vevodb.analytics.daily_streams,,,,,Extract object type: vevodb.analytics.daily_streams,08/12/2026 21:41:15,08/12/2026 21:41:17,"Error processing the task '4'. Failed exporting data from the 'redshift' engine using the 'odbc' data source.
+Please check the database connection and the query.
+
+Exception Type: OperationalError
+Exception Message: ('08001', '[08001] connection to server at ""vevo-workgroup.307946663293.us-east-1.redshift-serverless.amazonaws.com"" (3.226.67.51), port 5439 failed: FATAL:  no pg_hba.conf entry for host ""???"", user ""admin"", database ""vevodb"", SSL off\n (101) (SQLDriverConnect)')"
+vevodb.operations.ad_campaigns,,,,,Extract object type: vevodb.operations.ad_campaigns,08/12/2026 21:41:13,08/12/2026 21:41:15,"Error processing the task '6'. Failed exporting data from the 'redshift' engine using the 'odbc' data source.
+Please check the database connection and the query.
+
+Exception Type: OperationalError
+Exception Message: ('08001', '[08001] connection to server at ""vevo-workgroup.307946663293.us-east-1.redshift-serverless.amazonaws.com"" (3.226.67.51), port 5439 failed: FATAL:  no pg_hba.conf entry for host ""???"", user ""admin"", database ""vevodb"", SSL off\n (101) (SQLDriverConnect)')"
+vevodb.operations.ad_placements,,,,,Extract object type: vevodb.operations.ad_placements,08/12/2026 21:41:11,08/12/2026 21:41:12,"Error processing the task '5'. Failed exporting data from the 'redshift' engine using the 'odbc' data source.
+Please check the database connection and the query.
+
+Exception Type: OperationalError
+Exception Message: ('08001', '[08001] connection to server at ""vevo-workgroup.307946663293.us-east-1.redshift-serverless.amazonaws.com"" (3.226.67.51), port 5439 failed: FATAL:  no pg_hba.conf entry for host ""???"", user ""admin"", database ""vevodb"", SSL off\n (101) (SQLDriverConnect)')"

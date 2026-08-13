@@ -1,0 +1,32 @@
+[8/12/2026 7:03:55 PM] Info: ========================================
+[8/12/2026 7:03:55 PM] Info: Starting Code Deployment
+[8/12/2026 7:03:55 PM] Info: ========================================
+[8/12/2026 7:03:55 PM] Info: Target Database: VEVODB
+[8/12/2026 7:03:55 PM] Info: Connection ID: SNOWLAKE_GLOBAL
+[8/12/2026 7:03:55 PM] Info: Retry Attempts: 1
+[8/12/2026 7:03:55 PM] Info: Where Filter: id IN ('e02b2761-84c6-427d-afc1-2674c74f2a36', '9f45623b-622e-444e-bf5c-4dfe942649c3', 'fac36da8-8abc-4177-9774-5e5467a40902')
+[8/12/2026 7:03:55 PM] Info: Continue On Error: True
+[8/12/2026 7:03:55 PM] Info: ========================================
+[8/12/2026 7:03:55 PM] Warn: Deploying Table vevodb.operations.ad_campaigns - FAILED: Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement "CREATE TABLE IF NOT EXISTS ope..." (at line 2, position 0).
+SQL compilation error:
+Schema 'VEVODB.OPERATIONS' does not exist or not authorized. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4
+stackstrace: 
+SYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65897-0202-bb06-0011-73e30190d586
+[8/12/2026 7:03:55 PM] Warn: Deploying Table vevodb.operations.ad_placements - FAILED: Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement "CREATE TABLE IF NOT EXISTS ope..." (at line 2, position 0).
+SQL compilation error:
+Schema 'VEVODB.OPERATIONS' does not exist or not authorized. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4
+stackstrace: 
+SYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65897-0202-bba8-0011-73e3019152b2
+[8/12/2026 7:03:55 PM] Warn: Deploying Table vevodb.analytics.daily_streams - FAILED: Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement "CREATE TABLE IF NOT EXISTS ana..." (at line 2, position 0).
+SQL compilation error:
+Schema 'VEVODB.ANALYTICS' does not exist or not authorized. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4
+stackstrace: 
+SYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65897-0202-b777-0011-73e30191d036
+[8/12/2026 7:03:56 PM] Info: ========================================
+[8/12/2026 7:03:56 PM] Info: Code Deployment Completed with Errors
+[8/12/2026 7:03:56 PM] Info: Total Objects: 3
+[8/12/2026 7:03:56 PM] Info: Successful: 0
+[8/12/2026 7:03:56 PM] Info: Failed: 3
+[8/12/2026 7:03:56 PM] Info: Average Time per Object: 0.50s
+[8/12/2026 7:03:56 PM] Info: Execution Time: 00:00:01
+[8/12/2026 7:03:56 PM] Info: ========================================

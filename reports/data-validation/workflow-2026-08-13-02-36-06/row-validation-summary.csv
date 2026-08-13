@@ -1,0 +1,9 @@
+TableName,TotalChunks,MatchingChunks,DifferingChunks,TotalRowsCompared,RowsNotFoundInTarget,RowsNotFoundInSource,RowsWithDifferences,IsValid,CreatedAt
+vevodb.operations.ad_campaigns,1,1,0,16,0,0,0,True,08/12/2026 19:38:10
+vevodb.music_catalog.artists,1,1,0,20,0,0,0,True,08/12/2026 19:37:44
+vevodb.music_catalog.videos,1,1,0,32,0,0,0,True,08/12/2026 19:37:44
+vevodb.analytics.user_engagement,1,1,0,28,0,0,0,True,08/12/2026 19:38:11
+vevodb.operations.content_moderation,1,1,0,10,0,0,0,True,08/12/2026 19:38:26
+vevodb.music_catalog.channels,1,1,0,20,0,0,0,True,08/12/2026 19:38:11
+vevodb.analytics.daily_streams,1,1,0,40,0,0,0,True,08/12/2026 19:37:44
+vevodb.operations.ad_placements,1,1,0,20,0,0,0,True,08/12/2026 19:38:26
