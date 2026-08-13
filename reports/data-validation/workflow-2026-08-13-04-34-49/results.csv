@@ -1,0 +1,10 @@
+TableName,Status,SchemaValidated,MetricsValidated,RowsValidated,ErrorMessage
+vevodb.music_catalog.videos,Invalid,False,,True,"Values differ: source(64.0), Snowflake(38.0)"
+vevodb.music_catalog.artists,Invalid,False,,True,"Values differ: source(64.0), Snowflake(38.0)"
+vevodb.analytics.daily_streams,Invalid,False,,True,"Values differ: source(64.0), Snowflake(38.0)"
+vevodb.operations.ad_campaigns_history,Pending,False,,False,
+vevodb.operations.ad_placements,Invalid,False,,True,"Values differ: source(64.0), Snowflake(38.0)"
+vevodb.analytics.user_engagement,Invalid,False,,True,"Values differ: source(64.0), Snowflake(38.0)"
+vevodb.music_catalog.channels,Invalid,False,,True,"Values differ: source(64.0), Snowflake(38.0)"
+vevodb.operations.content_moderation,Valid,True,,True,
+vevodb.operations.ad_campaigns,Valid,True,,True,

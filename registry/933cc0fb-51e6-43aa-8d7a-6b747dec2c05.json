@@ -1,10 +1,10 @@
 {
   "cloudStatus": {
     "deployment": {
-      "deployedTo": "VEVODB",
+      "deployedTo": "VEVODB_UAT",
       "details": {},
       "status": "completed",
-      "updatedAt": "2026-08-12T22:04:29Z"
+      "updatedAt": "2026-08-13T04:18:39Z"
     }
   },
   "codeStatus": {
@@ -152,5 +152,5 @@
     "objectType": "table",
     "schema": "music_catalog"
   },
-  "updatedAt": "2026-08-12T22:04:29Z"
+  "updatedAt": "2026-08-13T04:18:39Z"
 }

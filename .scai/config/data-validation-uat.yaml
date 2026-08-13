@@ -1,0 +1,70 @@
+sourcePlatform: redshift
+targetPlatform: Snowflake
+targetDatabase: VEVODB_UAT
+validationConfiguration:
+  schemaValidation: true
+  metricsValidation: false
+  rowValidation: true
+  continueOnFailure: true
+  maxFailedRowsNumber: 1000
+  earlyStopCheckIntervalMinutes: 5
+tables:
+- fullyQualifiedName: vevodb.music_catalog.videos
+  targetSchema: MUSIC_CATALOG
+  targetName: VIDEOS
+  indexColumnList:
+  - video_id
+  columnNamesToPartitionBy:
+  - video_id
+- fullyQualifiedName: vevodb.analytics.daily_streams
+  targetSchema: ANALYTICS
+  targetName: DAILY_STREAMS
+  indexColumnList:
+  - stream_id
+  columnNamesToPartitionBy:
+  - stream_id
+- fullyQualifiedName: vevodb.music_catalog.artists
+  targetSchema: MUSIC_CATALOG
+  targetName: ARTISTS
+  indexColumnList:
+  - artist_id
+  columnNamesToPartitionBy:
+  - artist_id
+- fullyQualifiedName: vevodb.operations.ad_campaigns_history
+  targetSchema: OPERATIONS
+  targetName: AD_CAMPAIGNS_HISTORY
+- fullyQualifiedName: vevodb.analytics.user_engagement
+  targetSchema: ANALYTICS
+  targetName: USER_ENGAGEMENT
+  indexColumnList:
+  - engagement_id
+  columnNamesToPartitionBy:
+  - engagement_id
+- fullyQualifiedName: vevodb.operations.content_moderation
+  targetSchema: OPERATIONS
+  targetName: CONTENT_MODERATION
+  indexColumnList:
+  - moderation_id
+  columnNamesToPartitionBy:
+  - moderation_id
+- fullyQualifiedName: vevodb.operations.ad_placements
+  targetSchema: OPERATIONS
+  targetName: AD_PLACEMENTS
+  indexColumnList:
+  - placement_id
+  columnNamesToPartitionBy:
+  - placement_id
+- fullyQualifiedName: vevodb.music_catalog.channels
+  targetSchema: MUSIC_CATALOG
+  targetName: CHANNELS
+  indexColumnList:
+  - channel_id
+  columnNamesToPartitionBy:
+  - channel_id
+- fullyQualifiedName: vevodb.operations.ad_campaigns
+  targetSchema: OPERATIONS
+  targetName: AD_CAMPAIGNS
+  indexColumnList:
+  - campaign_id
+  columnNamesToPartitionBy:
+  - campaign_id

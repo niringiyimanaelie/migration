@@ -1,0 +1,45 @@
+[8/13/2026 4:18:29 AM] Info: ========================================
+[8/13/2026 4:18:29 AM] Info: Starting Code Deployment
+[8/13/2026 4:18:29 AM] Info: ========================================
+[8/13/2026 4:18:29 AM] Info: Target Database: VEVODB_UAT
+[8/13/2026 4:18:29 AM] Info: Connection ID: SNOWLAKE_UAT
+[8/13/2026 4:18:29 AM] Info: Retry Attempts: 1
+[8/13/2026 4:18:29 AM] Info: Continue On Error: True
+[8/13/2026 4:18:29 AM] Info: ========================================
+[8/13/2026 4:18:29 AM] Info: Deploying Database vevodb -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Schema dev.dev.public -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Schema vevodb.vevodb.spectrum_data -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Schema vevodb.vevodb.analytics -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Schema vevodb.vevodb.music_catalog -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Schema vevodb.vevodb.staging -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Schema vevodb.vevodb.public -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Schema vevodb.vevodb.operations -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.music_catalog.artists -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Function PUBLIC.STRING_FORMAT_UDF -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Procedure vevodb.analytics.sp_refresh_daily_summary -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.music_catalog.videos -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.analytics.daily_streams -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.analytics.user_engagement -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Function PUBLIC.RAISE_MESSAGE_UDP -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.operations.content_moderation -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.operations.ad_campaigns -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.operations.ad_campaigns_history -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.operations.ad_placements -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Table vevodb.music_catalog.channels -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying View vevodb.operations.v_campaign_performance -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Procedure vevodb.operations.mv_sp__mv_advertiser_spend__4_2_cascade -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying View vevodb.analytics.v_top_artists_by_streams -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Procedure vevodb.operations.sp_close_campaign -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Procedure vevodb.analytics.mv_sp__mv_daily_revenue_summary__4_2_cascade -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying Procedure vevodb.operations.sp_generate_campaign_report -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying View vevodb.music_catalog.v_video_catalog -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying MaterializedView vevodb.analytics.mv_daily_revenue_summary -> Deployed
+[8/13/2026 4:18:29 AM] Info: Deploying MaterializedView vevodb.operations.mv_advertiser_spend -> Deployed
+[8/13/2026 4:18:39 AM] Info: ========================================
+[8/13/2026 4:18:39 AM] Info: Code Deployment Completed Successfully
+[8/13/2026 4:18:39 AM] Info: Total Objects: 29
+[8/13/2026 4:18:39 AM] Info: Successful: 29
+[8/13/2026 4:18:39 AM] Info: Failed: 0
+[8/13/2026 4:18:39 AM] Info: Average Time per Object: 0.33s
+[8/13/2026 4:18:39 AM] Info: Execution Time: 00:00:09
+[8/13/2026 4:18:39 AM] Info: ========================================

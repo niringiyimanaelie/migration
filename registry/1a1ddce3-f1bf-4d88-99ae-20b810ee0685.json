@@ -1,4 +1,12 @@
 {
+  "cloudStatus": {
+    "deployment": {
+      "deployedTo": "VEVODB_UAT",
+      "details": {},
+      "status": "completed",
+      "updatedAt": "2026-08-13T04:18:39Z"
+    }
+  },
   "codeStatus": {
     "conversion": {
       "converterVersion": "2.40.0-Pr.125",
@@ -38,5 +46,5 @@
     "objectType": "function",
     "schema": "PUBLIC"
   },
-  "updatedAt": "2026-08-12T17:52:15Z"
+  "updatedAt": "2026-08-13T04:18:39Z"
 }

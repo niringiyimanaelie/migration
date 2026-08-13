@@ -1,0 +1,10 @@
+TableName,HasBeenPreprocessed,TotalPartitions,PartitionsInExtractionPhase,PartitionsInLoadingPhase,LoadedPartitions,FailedPartitions,ExampleErrorMessage
+vevodb.operations.ad_campaigns,True,1,0,0,1,0,
+vevodb.operations.ad_placements,True,1,0,0,1,0,
+vevodb.music_catalog.videos,True,1,0,0,1,0,
+vevodb.music_catalog.channels,True,1,0,0,1,0,
+vevodb.operations.content_moderation,True,1,0,0,1,0,
+vevodb.operations.ad_campaigns_history,True,1,0,0,1,0,
+vevodb.analytics.user_engagement,True,1,0,0,1,0,
+vevodb.music_catalog.artists,True,1,0,0,1,0,
+vevodb.analytics.daily_streams,True,1,0,0,1,0,

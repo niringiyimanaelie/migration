@@ -1,12 +1,12 @@
 {
   "cloudStatus": {
     "deployment": {
-      "deployedTo": "VEVODB",
+      "deployedTo": "VEVODB_UAT",
       "details": {
         "error": "Error: JavaScript execution error: Uncaught Execution of multiple statements failed on statement \"CREATE OR REPLACE PROCEDURE op...\" (at line 3, position 0).\nSQL compilation error:\nsyntax error line 4 at position 5 unexpected '!'.\nsyntax error line 4 at position 19 unexpected '!'. in SYSTEM$MULTISTMT at '    throw `Execution of multiple statements failed on statement {0} (at line {1}, position {2}).`.replace('{1}', LINES[i])' position 4\nstackstrace: \nSYSTEM$MULTISTMT line: 10 SqlState: P0000, VendorCode: 100132, QueryId: 01c65959-0202-bb06-0011-73e3019343a6"
       },
       "status": "completed",
-      "updatedAt": "2026-08-12T22:18:07Z"
+      "updatedAt": "2026-08-13T04:18:39Z"
     }
   },
   "codeStatus": {
@@ -208,5 +208,5 @@
     "objectType": "procedure",
     "schema": "operations"
   },
-  "updatedAt": "2026-08-12T22:18:07Z"
+  "updatedAt": "2026-08-13T04:18:39Z"
 }
